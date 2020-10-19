@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="PlateauxDeJeu" version="4">
+  <OBJECT>
+    <ID name="PlateauxDeJeu" mc="Standard.Package" uid="54a3aab4-15f7-437d-b20a-aa37c8b1c2e8"/>
+    <PID name="labouml" mc="Standard.Package" uid="a4becc59-5cf6-482d-85f7-14662b8dfdee"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[PlateauxDeJeu]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Avatar" mc="Standard.Class" uid="159a085b-9121-47d8-a481-a2cce2f00c74"/>
+        <COMPID name="Monde" mc="Standard.Class" uid="c47dc40b-3997-47f3-990f-d10869ce53e3"/>
+        <COMPID name="Case" mc="Standard.Class" uid="5b99f3d5-7031-400f-8eec-c78c9f1d83d9"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="PlateauxDeJeu" mc="Standard.ClassDiagram" uid="02b04d31-dccd-41ee-a945-7f87a616bcdd"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

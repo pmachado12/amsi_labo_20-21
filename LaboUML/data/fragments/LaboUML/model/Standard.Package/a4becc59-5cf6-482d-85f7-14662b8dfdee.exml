@@ -15,6 +15,7 @@
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
         <COMPID name="Package1" mc="Standard.Package" uid="c144b141-e88f-4540-8a71-427ef1a225e1"/>
+        <COMPID name="PlateauxDeJeu" mc="Standard.Package" uid="54a3aab4-15f7-437d-b20a-aa37c8b1c2e8"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
