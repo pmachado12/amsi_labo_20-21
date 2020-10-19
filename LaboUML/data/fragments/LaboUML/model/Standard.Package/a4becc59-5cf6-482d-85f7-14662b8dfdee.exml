@@ -12,6 +12,10 @@
       <ATT name="Name"><![CDATA[labouml]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
-    <DEPENDENCIES></DEPENDENCIES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Package1" mc="Standard.Package" uid="c144b141-e88f-4540-8a71-427ef1a225e1"/>
+      </COMP>
+    </DEPENDENCIES>
   </OBJECT>
 </EXT>
