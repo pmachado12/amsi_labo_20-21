@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Monde" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Items" version="4">
   <OBJECT>
-    <ID name="Monde" mc="Standard.Class" uid="c47dc40b-3997-47f3-990f-d10869ce53e3"/>
+    <ID name="Items" mc="Standard.Class" uid="0f0d721a-6ebb-433f-8faf-12468a7f1cd0"/>
     <PID name="PlateauxDeJeu" mc="Standard.Package" uid="54a3aab4-15f7-437d-b20a-aa37c8b1c2e8"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,13 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Monde]]></ATT>
+      <ATT name="Name"><![CDATA[Items]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedAttribute">
         <OBJECT>
-          <ID name="plateau" mc="Standard.Attribute" uid="6faefa83-43ea-48ba-a017-7a643aef7b69"/>
+          <ID name="nom" mc="Standard.Attribute" uid="2c677fc6-1262-48df-8e46-2007df8f6e80"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -31,12 +31,12 @@
             <ATT name="Visibility">Private</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[plateau]]></ATT>
+            <ATT name="Name"><![CDATA[nom]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Type">
-              <ID name="Case" mc="Standard.Class" uid="5b99f3d5-7031-400f-8eec-c78c9f1d83d9"/>
+              <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>

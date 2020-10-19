@@ -17,6 +17,16 @@
         <COMPID name="Avatar" mc="Standard.Class" uid="159a085b-9121-47d8-a481-a2cce2f00c74"/>
         <COMPID name="Monde" mc="Standard.Class" uid="c47dc40b-3997-47f3-990f-d10869ce53e3"/>
         <COMPID name="Case" mc="Standard.Class" uid="5b99f3d5-7031-400f-8eec-c78c9f1d83d9"/>
+        <COMPID name="Obstacle" mc="Standard.Class" uid="3f1afc2e-d985-45bf-bd01-6ef85b78141f"/>
+        <COMPID name="ObstacleFranchissable" mc="Standard.Class" uid="68fb2b67-f47b-4899-ab79-f208b2069516"/>
+        <COMPID name="ObstacleInfranchissable" mc="Standard.Class" uid="83c17e69-e2b8-468a-a13e-0e67fa601b9c"/>
+        <COMPID name="zone" mc="Standard.Class" uid="19a7469e-7438-4e76-8ff4-a095de0762a1"/>
+        <COMPID name="Items" mc="Standard.Class" uid="0f0d721a-6ebb-433f-8faf-12468a7f1cd0"/>
+        <COMPID name="Munition" mc="Standard.Class" uid="8ef86653-6d56-447f-b3dc-31bb81c34a62"/>
+        <COMPID name="Nourriture" mc="Standard.Class" uid="5cb9721b-db34-47ce-8d85-6e19295b9210"/>
+        <COMPID name="Boisson" mc="Standard.Class" uid="adae25fa-0d67-45f9-b407-3b548182a326"/>
+        <COMPID name="Usable" mc="Standard.Class" uid="323a7189-5fc3-4515-8c59-38b3e30d88a2"/>
+        <COMPID name="Wearable" mc="Standard.Class" uid="0073ebf3-db8b-46e4-845d-7a3f6e071867"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="PlateauxDeJeu" mc="Standard.ClassDiagram" uid="02b04d31-dccd-41ee-a945-7f87a616bcdd"/>
