@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="LaboUML" version="4">
+  <OBJECT>
+    <ID name="LaboUML" mc="Infrastructure.DiagramSet" uid="2fba9c73-9e1d-4da5-bffb-59c596618ce3"/>
+    <PID name="LaboUML" mc="Standard.Project" uid="56588901-6826-4887-be2c-5df0db0a79bd"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[LaboUML]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>
