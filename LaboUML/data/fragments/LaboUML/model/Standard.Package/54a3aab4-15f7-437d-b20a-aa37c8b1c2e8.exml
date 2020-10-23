@@ -27,6 +27,11 @@
         <COMPID name="Boisson" mc="Standard.Class" uid="adae25fa-0d67-45f9-b407-3b548182a326"/>
         <COMPID name="Usable" mc="Standard.Class" uid="323a7189-5fc3-4515-8c59-38b3e30d88a2"/>
         <COMPID name="Wearable" mc="Standard.Class" uid="0073ebf3-db8b-46e4-845d-7a3f6e071867"/>
+        <COMPID name="SuperWearable" mc="Standard.Class" uid="db607f49-ff06-4bd2-a5bb-8e8707345751"/>
+        <COMPID name="Graal" mc="Standard.Class" uid="965567d5-d897-4bc5-8503-d775eb10527b"/>
+        <COMPID name="Personage" mc="Standard.Class" uid="20ede19e-e57a-4666-9f17-b72ce03682a8"/>
+        <COMPID name="Partie" mc="Standard.Class" uid="b26b065f-e519-496a-afe0-7ae85ea03224"/>
+        <COMPID name="Zombie" mc="Standard.Class" uid="9f023cc7-eb8a-4e4a-ab8b-db555f05d90d"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="PlateauxDeJeu" mc="Standard.ClassDiagram" uid="02b04d31-dccd-41ee-a945-7f87a616bcdd"/>
