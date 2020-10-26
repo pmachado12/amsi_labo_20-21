@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="LaboAMSI" version="4">
+  <OBJECT>
+    <ID name="LaboAMSI" mc="Infrastructure.DiagramSet" uid="6adfa4cb-ca94-423c-ad57-c943deab8905"/>
+    <PID name="LaboAMSI" mc="Standard.Project" uid="f465b8e2-3dfd-46aa-b4a7-80feab9c1799"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[LaboAMSI]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>
