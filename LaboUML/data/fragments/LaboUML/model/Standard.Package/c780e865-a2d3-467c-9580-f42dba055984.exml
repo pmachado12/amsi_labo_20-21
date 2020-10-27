@@ -16,13 +16,45 @@
       <COMP relation="OwnedElement">
         <COMPID name="Joueur" mc="Standard.Class" uid="e97c6145-af6b-4f6c-849a-5ec45abd77a7"/>
         <COMPID name="Jeu" mc="Standard.Class" uid="cd3997f0-a27f-4f67-8e8a-848af6256043"/>
-        <COMPID name="Avatar" mc="Standard.Class" uid="bc682c22-8919-400e-b5e6-e2a7da937fbd"/>
+        <COMPID name="Personnage" mc="Standard.Class" uid="bc682c22-8919-400e-b5e6-e2a7da937fbd"/>
         <COMPID name="Monde" mc="Standard.Class" uid="bead764f-f4b8-47b5-ad79-92928833a317"/>
         <COMPID name="Match" mc="Standard.Class" uid="5106a048-9edf-4b2e-aa24-718f43daa640"/>
         <COMPID name="Rencontre" mc="Standard.Class" uid="a580874f-b305-411b-8601-79442a0c31cf"/>
+        <COMPID name="Zombie" mc="Standard.Class" uid="325abd62-3d33-4162-95a9-fbdbfafcf3b4"/>
+        <COMPID name="PersonnageBase" mc="Standard.Class" uid="d15742a4-f772-404c-94da-10fa926f13bc"/>
+        <COMPID name="Figurine" mc="Standard.Class" uid="713c31d9-5f30-47a0-af1d-bb03004dd723"/>
+        <COMPID name="FigGratuite" mc="Standard.Class" uid="da5648b7-2e1f-4f37-bd70-f149da326914"/>
+        <COMPID name="FigPayante" mc="Standard.Class" uid="60d17674-f47f-4b9b-a802-74d41ee26c66"/>
+        <COMPID name="Item" mc="Standard.Class" uid="ca2f79cc-4092-44d7-951e-78f5e5c92da2"/>
+        <COMPID name="Nourriure" mc="Standard.Class" uid="f22eb1a5-809e-4505-bd9a-4a91a99a4e36"/>
+        <COMPID name="Munition" mc="Standard.Class" uid="93b72315-5bd1-4a91-b6c8-8fba969351fc"/>
+        <COMPID name="Boisson" mc="Standard.Class" uid="388e6def-117b-446d-86c4-212488775ee2"/>
+        <COMPID name="Bottes" mc="Standard.Class" uid="a75251a3-c2d9-43b4-bc91-42db7b0348b7"/>
+        <COMPID name="KitPlongée" mc="Standard.Class" uid="14385495-b5c2-45be-a4af-d661f2fc84a6"/>
+        <COMPID name="BottesPareFeu" mc="Standard.Class" uid="153f162d-cdb0-4f92-942f-4a9a5d232200"/>
+        <COMPID name="BottesCrampons" mc="Standard.Class" uid="99f196a7-58ac-4ec6-af65-8bf334d9cb2e"/>
+        <COMPID name="CotteDeMaille" mc="Standard.Class" uid="77e51777-85ad-4b4d-9370-92349f98b0ac"/>
+        <COMPID name="CapDeMage" mc="Standard.Class" uid="c5826c64-8128-4d3c-8846-32efd55d1c48"/>
+        <COMPID name="Graal" mc="Standard.Class" uid="deddb6a2-221c-4f6a-abbc-5cd14d746533"/>
+        <COMPID name="Radar" mc="Standard.Class" uid="34fb6f7e-8f3d-40cc-bf37-6af4e74e7805"/>
+        <COMPID name="Carte" mc="Standard.Class" uid="0b8a49d6-1241-40d3-bb6b-3e6dee0a6824"/>
+        <COMPID name="Obstacle" mc="Standard.Class" uid="434165f4-5d41-4716-808f-fd1aeb086d9d"/>
+        <COMPID name="Mur" mc="Standard.Class" uid="930db137-e1b4-4237-ba15-246532efac02"/>
+        <COMPID name="Arbre" mc="Standard.Class" uid="c8843897-df59-4b60-b23b-f7183e520e0c"/>
+        <COMPID name="Menhir" mc="Standard.Class" uid="635fc616-8ff7-4649-971a-8401c997b133"/>
+        <COMPID name="ObstacleInfranchissable" mc="Standard.Class" uid="3d023b2b-4558-4c9d-a5d2-273a62dc1885"/>
+        <COMPID name="Ronce" mc="Standard.Class" uid="1b714878-0ac1-4b1f-9d63-c2d45476c9a9"/>
+        <COMPID name="Buisson" mc="Standard.Class" uid="6a0d6ba2-e57c-4ae2-bc53-f42bce202712"/>
+        <COMPID name="TroncArbre" mc="Standard.Class" uid="ec156d50-96be-41ef-b8c7-153b9b9dadc4"/>
+        <COMPID name="TeteDeMort" mc="Standard.Class" uid="93191e07-21bd-4b71-b2d4-25166cee83a3"/>
+        <COMPID name="ZoneEau" mc="Standard.Class" uid="41d9f4bd-6c3d-4b02-a858-9ce9ae0a1a6a"/>
+        <COMPID name="ZoneFeu" mc="Standard.Class" uid="472aa7a7-9103-4c80-8cc6-6b2a7523d418"/>
+        <COMPID name="ZoneGlace" mc="Standard.Class" uid="896beaa6-57c7-45cf-9628-70bdff5651ee"/>
+        <COMPID name="Objet" mc="Standard.Class" uid="5ecdb9a1-30a8-40af-a654-935327a7d998"/>
+        <COMPID name="ObstacleFranchissable" mc="Standard.Class" uid="29f5d954-b362-4c66-8db7-da220b017f81"/>
       </COMP>
       <COMP relation="Product">
-        <COMPID name="PlateauxDeJeu Class diagram" mc="Standard.ClassDiagram" uid="3552e2c9-c4c6-4a33-b33a-28c913268f79"/>
+        <COMPID name="PlateauxDeJeuDC" mc="Standard.ClassDiagram" uid="3552e2c9-c4c6-4a33-b33a-28c913268f79"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

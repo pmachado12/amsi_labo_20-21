@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Jeu" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Figurine" version="4">
   <OBJECT>
-    <ID name="Jeu" mc="Standard.Class" uid="cd3997f0-a27f-4f67-8e8a-848af6256043"/>
+    <ID name="Figurine" mc="Standard.Class" uid="713c31d9-5f30-47a0-af1d-bb03004dd723"/>
     <PID name="DC" mc="Standard.Package" uid="c780e865-a2d3-467c-9580-f42dba055984"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -10,17 +10,14 @@
       <ATT name="IsAbstract">false</ATT>
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
-      <ATT name="Visibility">VisibilityUndefined</ATT>
-      <ATT name="Name"><![CDATA[Jeu]]></ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Figurine]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedEnd">
-        <REFOBJ>
-          <ID name="joueur" mc="Standard.AssociationEnd" uid="3ab8c8b6-ae09-419b-ab1e-7288fea57827"/>
-        </REFOBJ>
         <OBJECT>
-          <ID name="match" mc="Standard.AssociationEnd" uid="3b5f768f-001d-45ce-9474-2a9aced7e851"/>
+          <ID name="personnage" mc="Standard.AssociationEnd" uid="5b2ea9f0-5b12-4757-b6f3-0dd10e315ea6"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -28,18 +25,18 @@
             <ATT name="IsDerived">false</ATT>
             <ATT name="IsOrdered">false</ATT>
             <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
             <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[match]]></ATT>
+            <ATT name="Name"><![CDATA[personnage]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="jeu" mc="Standard.AssociationEnd" uid="e3426dac-6532-41ca-89b4-43d705473563"/>
+                <ID name="figurine" mc="Standard.AssociationEnd" uid="8bdd67d4-659f-4cf4-9ba7-91537541a85a"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -52,16 +49,16 @@
                   <ATT name="Visibility">Public</ATT>
                   <ATT name="IsClass">false</ATT>
                   <ATT name="IsAbstract">false</ATT>
-                  <ATT name="Name"><![CDATA[jeu]]></ATT>
+                  <ATT name="Name"><![CDATA[figurine]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="match" mc="Standard.AssociationEnd" uid="3b5f768f-001d-45ce-9474-2a9aced7e851"/>
+                    <COMPID name="personnage" mc="Standard.AssociationEnd" uid="5b2ea9f0-5b12-4757-b6f3-0dd10e315ea6"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="possède" mc="Standard.Association" uid="39272586-b6d2-4441-a1e4-36afb757dadd"/>
+                      <ID name="possède" mc="Standard.Association" uid="14c2088c-12f3-4108-a925-3cab9ab47dbd"/>
                       <ATTRIBUTES>
                         <ATT name="Name"><![CDATA[possède]]></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -73,7 +70,7 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="possède" mc="Standard.Association" uid="39272586-b6d2-4441-a1e4-36afb757dadd"/>
+              <COMPID name="possède" mc="Standard.Association" uid="14c2088c-12f3-4108-a925-3cab9ab47dbd"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>

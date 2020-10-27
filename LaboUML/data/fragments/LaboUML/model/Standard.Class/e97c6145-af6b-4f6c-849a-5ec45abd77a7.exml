@@ -17,9 +17,67 @@
     <DEPENDENCIES>
       <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="avatar" mc="Standard.AssociationEnd" uid="d0f6568a-66fa-4b52-9577-cdd1d7ab876b"/>
+          <ID name="jeu" mc="Standard.AssociationEnd" uid="a0427bef-feac-42e5-b3be-320c550a2d30"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
+            <ATT name="IsChangeable">true</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[jeu]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Opposite">
+              <OBJECT>
+                <ID name="joueur" mc="Standard.AssociationEnd" uid="3ab8c8b6-ae09-419b-ab1e-7288fea57827"/>
+                <ATTRIBUTES>
+                  <ATT name="Aggregation">KindIsAssociation</ATT>
+                  <ATT name="IsChangeable">true</ATT>
+                  <ATT name="Changeable">ReadWrite</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[2]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"><![CDATA[joueur]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Opposite">
+                    <COMPID name="jeu" mc="Standard.AssociationEnd" uid="a0427bef-feac-42e5-b3be-320c550a2d30"/>
+                  </COMP>
+                  <COMP relation="Association">
+                    <OBJECT>
+                      <ID name="rassemble" mc="Standard.Association" uid="64212a48-b2a5-4485-aaeb-21466f5fd052"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"><![CDATA[rassemble]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Association">
+              <COMPID name="rassemble" mc="Standard.Association" uid="64212a48-b2a5-4485-aaeb-21466f5fd052"/>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="personnage" mc="Standard.AssociationEnd" uid="084d00cd-9b09-4679-9843-9b7dc31d1931"/>
+          <ATTRIBUTES>
+            <ATT name="Aggregation">KindIsComposition</ATT>
             <ATT name="IsChangeable">true</ATT>
             <ATT name="Changeable">ReadWrite</ATT>
             <ATT name="IsDerived">false</ATT>
@@ -30,37 +88,18 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[avatar]]></ATT>
+            <ATT name="Name"><![CDATA[personnage]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
-            <LINK relation="Target">
-              <ID name="Avatar" mc="Standard.Class" uid="bc682c22-8919-400e-b5e6-e2a7da937fbd"/>
-            </LINK>
             <COMP relation="Opposite">
-              <OBJECT>
-                <ID name="joueur" mc="Standard.AssociationEnd" uid="ee07dd3a-b3ae-48f5-a82a-28c00aabd46b"/>
-                <ATTRIBUTES>
-                  <ATT name="Aggregation">KindIsAssociation</ATT>
-                  <ATT name="IsChangeable">true</ATT>
-                  <ATT name="Changeable">ReadWrite</ATT>
-                  <ATT name="IsDerived">false</ATT>
-                  <ATT name="IsOrdered">false</ATT>
-                  <ATT name="IsUnique">false</ATT>
-                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
-                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-                  <ATT name="Visibility">Public</ATT>
-                  <ATT name="IsClass">false</ATT>
-                  <ATT name="IsAbstract">false</ATT>
-                  <ATT name="Name"><![CDATA[joueur]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES></DEPENDENCIES>
-              </OBJECT>
+              <REFOBJ>
+                <ID name="joueur" mc="Standard.AssociationEnd" uid="bf72b300-a46d-4f76-a98a-8577ce3be6d4"/>
+              </REFOBJ>
             </COMP>
             <COMP relation="Association">
               <OBJECT>
-                <ID name="possède" mc="Standard.Association" uid="4135b978-59e7-4839-9754-73b8d4f5abfd"/>
+                <ID name="possède" mc="Standard.Association" uid="679d9559-7fdf-470f-b7c0-5afa64dda259"/>
                 <ATTRIBUTES>
                   <ATT name="Name"><![CDATA[possède]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
