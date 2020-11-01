@@ -50,8 +50,24 @@
         <COMPID name="ZoneEau" mc="Standard.Class" uid="41d9f4bd-6c3d-4b02-a858-9ce9ae0a1a6a"/>
         <COMPID name="ZoneFeu" mc="Standard.Class" uid="472aa7a7-9103-4c80-8cc6-6b2a7523d418"/>
         <COMPID name="ZoneGlace" mc="Standard.Class" uid="896beaa6-57c7-45cf-9628-70bdff5651ee"/>
-        <COMPID name="Objet" mc="Standard.Class" uid="5ecdb9a1-30a8-40af-a654-935327a7d998"/>
+        <COMPID name="Case" mc="Standard.Class" uid="5ecdb9a1-30a8-40af-a654-935327a7d998"/>
         <COMPID name="ObstacleFranchissable" mc="Standard.Class" uid="29f5d954-b362-4c66-8db7-da220b017f81"/>
+        <COMPID name="ItemActivateur" mc="Standard.Class" uid="ea92d95f-3cd1-4f5b-a312-f9acd8ef92c7"/>
+        <COMPID name="ItemOrientation" mc="Standard.Class" uid="5c0cd440-c7b3-4bc4-937a-750f322e9953"/>
+        <COMPID name="Bonus" mc="Standard.Class" uid="df52acb1-4b71-4f7a-b38e-e03004da87ed"/>
+        <COMPID name="BonusDefense" mc="Standard.Class" uid="78d7e362-8d13-4a42-9cb9-655ae5f7acd8"/>
+        <COMPID name="BonusAttaque" mc="Standard.Class" uid="d90ee875-ff30-4a8e-9c97-9d1788a327c1"/>
+        <COMPID name="Mode" mc="Standard.Class" uid="94b8df39-aeea-4d79-9917-6e7004d681ae"/>
+        <COMPID name="ModeEducatif" mc="Standard.Class" uid="5cc9372a-7954-4d9a-aed7-e5d7b5b1ec61"/>
+        <COMPID name="ModeInteractif" mc="Standard.Class" uid="458350b0-4c58-4a1b-b871-17d9af5f455f"/>
+        <COMPID name="Humain" mc="Standard.Class" uid="bf083c4b-f537-4aab-96c5-6a4a8d830655"/>
+        <COMPID name="Ordinateur" mc="Standard.Class" uid="1d39d670-1e30-4e60-9b57-3d9d8d4c1c23"/>
+        <COMPID name="StrategieDeJeu" mc="Standard.Class" uid="e7c65f38-a8a2-4a54-9c05-6dce910a70a7"/>
+        <COMPID name="LangageDeStrategies" mc="Standard.Class" uid="08d4d2fb-0c80-402f-9968-9a6d647aed52"/>
+        <COMPID name="Difficulté" mc="Standard.Class" uid="c312b695-9ec8-405a-bc66-16a673405372"/>
+        <COMPID name="Debutant" mc="Standard.Class" uid="3db23311-f6fa-4578-85d7-69503acb7d99"/>
+        <COMPID name="Avance" mc="Standard.Class" uid="78fbc819-9471-46cf-b3e3-a8c0a5323bf3"/>
+        <COMPID name="Expert" mc="Standard.Class" uid="7f7351fd-57ab-4b07-b512-915c4ab50923"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="PlateauxDeJeuDC" mc="Standard.ClassDiagram" uid="3552e2c9-c4c6-4a33-b33a-28c913268f79"/>

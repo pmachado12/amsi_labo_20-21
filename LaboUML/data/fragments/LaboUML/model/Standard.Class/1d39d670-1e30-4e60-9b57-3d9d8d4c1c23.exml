@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CotteDeMaille" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Ordinateur" version="4">
   <OBJECT>
-    <ID name="CotteDeMaille" mc="Standard.Class" uid="77e51777-85ad-4b4d-9370-92349f98b0ac"/>
+    <ID name="Ordinateur" mc="Standard.Class" uid="1d39d670-1e30-4e60-9b57-3d9d8d4c1c23"/>
     <PID name="DC" mc="Standard.Package" uid="c780e865-a2d3-467c-9580-f42dba055984"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,13 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[CotteDeMaille]]></ATT>
+      <ATT name="Name"><![CDATA[Ordinateur]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="Parent">
         <OBJECT>
-          <ID name="Generalization" mc="Standard.Generalization" uid="251a6fb3-78d6-4a12-89b4-3f9dfdd2bb29"/>
+          <ID name="Generalization" mc="Standard.Generalization" uid="237fb4e5-af23-4b74-88d9-cb2458da8133"/>
           <ATTRIBUTES>
             <ATT name="Discriminator"></ATT>
             <ATT name="Name"><![CDATA[Generalization]]></ATT>
@@ -25,7 +25,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="SuperType">
-              <ID name="ItemActivateur" mc="Standard.Class" uid="ea92d95f-3cd1-4f5b-a312-f9acd8ef92c7"/>
+              <ID name="Joueur" mc="Standard.Class" uid="e97c6145-af6b-4f6c-849a-5ec45abd77a7"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
