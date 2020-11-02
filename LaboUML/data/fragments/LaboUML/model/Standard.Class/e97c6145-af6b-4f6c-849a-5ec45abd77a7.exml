@@ -109,6 +109,9 @@
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
+        <REFOBJ>
+          <ID name="strategieDeJeu" mc="Standard.AssociationEnd" uid="fa29ce71-5edc-4155-8cac-9bb4668c50f8"/>
+        </REFOBJ>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

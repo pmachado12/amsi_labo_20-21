@@ -50,7 +50,6 @@
         <COMPID name="ZoneEau" mc="Standard.Class" uid="41d9f4bd-6c3d-4b02-a858-9ce9ae0a1a6a"/>
         <COMPID name="ZoneFeu" mc="Standard.Class" uid="472aa7a7-9103-4c80-8cc6-6b2a7523d418"/>
         <COMPID name="ZoneGlace" mc="Standard.Class" uid="896beaa6-57c7-45cf-9628-70bdff5651ee"/>
-        <COMPID name="Case" mc="Standard.Class" uid="5ecdb9a1-30a8-40af-a654-935327a7d998"/>
         <COMPID name="ObstacleFranchissable" mc="Standard.Class" uid="29f5d954-b362-4c66-8db7-da220b017f81"/>
         <COMPID name="ItemActivateur" mc="Standard.Class" uid="ea92d95f-3cd1-4f5b-a312-f9acd8ef92c7"/>
         <COMPID name="ItemOrientation" mc="Standard.Class" uid="5c0cd440-c7b3-4bc4-937a-750f322e9953"/>
@@ -63,7 +62,7 @@
         <COMPID name="Humain" mc="Standard.Class" uid="bf083c4b-f537-4aab-96c5-6a4a8d830655"/>
         <COMPID name="Ordinateur" mc="Standard.Class" uid="1d39d670-1e30-4e60-9b57-3d9d8d4c1c23"/>
         <COMPID name="StrategieDeJeu" mc="Standard.Class" uid="e7c65f38-a8a2-4a54-9c05-6dce910a70a7"/>
-        <COMPID name="LangageDeStrategies" mc="Standard.Class" uid="08d4d2fb-0c80-402f-9968-9a6d647aed52"/>
+        <COMPID name="LangageDeStratégie" mc="Standard.Class" uid="08d4d2fb-0c80-402f-9968-9a6d647aed52"/>
         <COMPID name="Difficulté" mc="Standard.Class" uid="c312b695-9ec8-405a-bc66-16a673405372"/>
         <COMPID name="Debutant" mc="Standard.Class" uid="3db23311-f6fa-4578-85d7-69503acb7d99"/>
         <COMPID name="Avance" mc="Standard.Class" uid="78fbc819-9471-46cf-b3e3-a8c0a5323bf3"/>

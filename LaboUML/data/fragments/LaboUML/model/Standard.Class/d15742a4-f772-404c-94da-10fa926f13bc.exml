@@ -38,19 +38,6 @@
             <LINK relation="Type">
               <FOREIGNID name="integer" mc="Standard.DataType" uid="00000004-0000-0009-0000-000000000000"/>
             </LINK>
-            <COMP relation="ConstraintDefinition">
-              <OBJECT>
-                <ID name="dsd" mc="Standard.Constraint" uid="9379394e-4ab3-49ab-bdfe-58e1a5865e79"/>
-                <ATTRIBUTES>
-                  <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[sdsdsd]]></ATT>
-                  <ATT name="Language"><![CDATA[sdsdsds]]></ATT>
-                  <ATT name="Name"><![CDATA[dsd]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES></DEPENDENCIES>
-              </OBJECT>
-            </COMP>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
