@@ -14,12 +14,36 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="Class" mc="Standard.Class" uid="cc8f5c58-19da-4623-9ea3-e0784bae8ca2"/>
-        <COMPID name="Interface" mc="Standard.Interface" uid="dd596dbb-da36-4417-8bff-489ddf582fc2"/>
-        <COMPID name="Class1" mc="Standard.Class" uid="55b84be5-cd0a-4f5b-9e01-3a5cc0fc81c9"/>
+        <COMPID name="Strategie" mc="Standard.Class" uid="cc8f5c58-19da-4623-9ea3-e0784bae8ca2"/>
+        <COMPID name="Instruction" mc="Standard.Class" uid="55b84be5-cd0a-4f5b-9e01-3a5cc0fc81c9"/>
+        <COMPID name="Regle" mc="Standard.Class" uid="b41a6a56-3df0-4f70-91ea-8d48a8dbaac5"/>
+        <COMPID name="Vision" mc="Standard.Class" uid="756b8b50-a717-4e66-9c5b-5b8c1c6c21a7"/>
+        <COMPID name="VisionLongTerme" mc="Standard.Class" uid="37ffbfa6-725b-4105-815e-fcc82c84dbfd"/>
+        <COMPID name="VisionCourteTerme" mc="Standard.Class" uid="80909a29-ef2e-4959-b06f-9e0d7b0cc657"/>
+        <COMPID name="Objectif" mc="Standard.Class" uid="33d938ff-6455-41af-8c57-7865b0db0fbc"/>
+        <COMPID name="Neant" mc="Standard.Class" uid="b0d14a1c-5a43-4f88-ba8b-0a6cd264e467"/>
+        <COMPID name="AllerVers" mc="Standard.Class" uid="9a133912-6805-4f5d-bd3a-bcfc36556efa"/>
+        <COMPID name="Contourner" mc="Standard.Class" uid="37f00051-e6f5-4f7d-a2bf-4e8a7bb5fcbd"/>
+        <COMPID name="Eviter" mc="Standard.Class" uid="580f0e7c-750a-4230-b8df-4a6aace4d996"/>
+        <COMPID name="CollecterMax" mc="Standard.Class" uid="b0fc8c77-5229-447d-b8f1-a8e796031da9"/>
+        <COMPID name="Combattre" mc="Standard.Class" uid="f3f6259f-ae54-44cf-a341-a4fe45854f3b"/>
+        <COMPID name="RegleNormal" mc="Standard.Class" uid="0efdf4bc-1978-4e86-aef4-ee11a3fa7ca1"/>
+        <COMPID name="MetaRegle" mc="Standard.Class" uid="55bdc600-4e1c-4804-8d8b-ab06ba88dc78"/>
+        <COMPID name="Expression" mc="Standard.Class" uid="8284b112-78ec-4f56-80a4-e7c513bb92ed"/>
+        <COMPID name="Literal" mc="Standard.Class" uid="6221ffab-34ea-4b3e-b414-2e2be1d21c82"/>
+        <COMPID name="ExpressionBinaire" mc="Standard.Class" uid="2d0ca7b6-1dba-42d3-910f-d1c9c4440c74"/>
+        <COMPID name="ExpressionUnaire" mc="Standard.Class" uid="7a87a12a-99d7-4b03-b5fa-117560916515"/>
+        <COMPID name="AppelDeModule" mc="Standard.Class" uid="a4cc6da7-aae5-4883-9ab6-3fc35f679499"/>
+        <COMPID name="ExpressionGauche" mc="Standard.Class" uid="127c3a96-7626-4cd4-9543-744799371496"/>
+        <COMPID name="ExpressionParenthesee" mc="Standard.Class" uid="1a44bc5a-5d3e-497a-b722-a4daf5c7fb6f"/>
+        <COMPID name="Skip" mc="Standard.Class" uid="ea20c28e-8d37-44f6-9682-544ec9819bbe"/>
+        <COMPID name="Conditionelle" mc="Standard.Class" uid="89c0cc70-1b3a-47ba-a8ac-d47fcdb95276"/>
+        <COMPID name="Iteration" mc="Standard.Class" uid="157dd909-a44c-4d1d-ae66-e7d97ba00b03"/>
+        <COMPID name="Affectation" mc="Standard.Class" uid="2b4c3238-7785-432f-b966-67e78316e11e"/>
+        <COMPID name="Action" mc="Standard.Class" uid="4bb820b0-8da2-4a3f-885e-586674f6edc9"/>
       </COMP>
       <COMP relation="Product">
-        <COMPID name="Package1 Class diagram" mc="Standard.ClassDiagram" uid="60ede6b9-f8d2-4c2c-9ab8-64d876b951a1"/>
+        <COMPID name="StrategiesDeJeu" mc="Standard.ClassDiagram" uid="60ede6b9-f8d2-4c2c-9ab8-64d876b951a1"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
