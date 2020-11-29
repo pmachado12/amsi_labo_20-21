@@ -17,7 +17,7 @@
     <DEPENDENCIES>
       <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="" mc="Standard.AssociationEnd" uid="44172a66-0d71-450e-b3f1-8d83917fdc73"/>
+          <ID name="case" mc="Standard.AssociationEnd" uid="29087b97-43b9-457e-aac6-d2fbc254c3dc"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -25,27 +25,27 @@
             <ATT name="IsDerived">false</ATT>
             <ATT name="IsOrdered">false</ATT>
             <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
-            <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"></ATT>
+            <ATT name="Name"><![CDATA[case]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="obstacle" mc="Standard.AssociationEnd" uid="f29d965c-a68d-425a-b3db-66ed50c4c340"/>
+                <ID name="obstacle" mc="Standard.AssociationEnd" uid="8fd024da-779c-40d6-b4c1-6908a08361b8"/>
                 <ATTRIBUTES>
-                  <ATT name="Aggregation">KindIsAggregation</ATT>
+                  <ATT name="Aggregation">KindIsComposition</ATT>
                   <ATT name="IsChangeable">true</ATT>
                   <ATT name="Changeable">ReadWrite</ATT>
                   <ATT name="IsDerived">false</ATT>
                   <ATT name="IsOrdered">false</ATT>
                   <ATT name="IsUnique">false</ATT>
-                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-                  <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
                   <ATT name="Visibility">Public</ATT>
                   <ATT name="IsClass">false</ATT>
                   <ATT name="IsAbstract">false</ATT>
@@ -54,11 +54,11 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="" mc="Standard.AssociationEnd" uid="44172a66-0d71-450e-b3f1-8d83917fdc73"/>
+                    <COMPID name="case" mc="Standard.AssociationEnd" uid="29087b97-43b9-457e-aac6-d2fbc254c3dc"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="contient" mc="Standard.Association" uid="e91ef2d0-e91d-4c7b-8997-98f732658699"/>
+                      <ID name="contient" mc="Standard.Association" uid="925ef2fe-91db-4ad3-8481-9d22444fdfcb"/>
                       <ATTRIBUTES>
                         <ATT name="Name"><![CDATA[contient]]></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -70,7 +70,7 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="contient" mc="Standard.Association" uid="e91ef2d0-e91d-4c7b-8997-98f732658699"/>
+              <COMPID name="contient" mc="Standard.Association" uid="925ef2fe-91db-4ad3-8481-9d22444fdfcb"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>

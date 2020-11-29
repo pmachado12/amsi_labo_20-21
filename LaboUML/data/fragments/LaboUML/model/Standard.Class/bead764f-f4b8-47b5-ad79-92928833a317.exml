@@ -16,9 +16,6 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedEnd">
-        <REFOBJ>
-          <ID name="obstacle" mc="Standard.AssociationEnd" uid="f29d965c-a68d-425a-b3db-66ed50c4c340"/>
-        </REFOBJ>
         <OBJECT>
           <ID name="rencontre" mc="Standard.AssociationEnd" uid="e5057bd9-debe-4287-be36-fa5256b94f8b"/>
           <ATTRIBUTES>
@@ -49,9 +46,6 @@
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
-        <REFOBJ>
-          <ID name="item" mc="Standard.AssociationEnd" uid="81df4507-e93f-4516-bf90-f58ca177493a"/>
-        </REFOBJ>
         <OBJECT>
           <ID name="zombie" mc="Standard.AssociationEnd" uid="56b5a1ed-59ff-481f-bc5b-c37cb08449e4"/>
           <ATTRIBUTES>
@@ -87,6 +81,9 @@
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
+        <REFOBJ>
+          <ID name="obstacle" mc="Standard.AssociationEnd" uid="cdb44051-90af-4dd7-a203-4a2189f6e8bb"/>
+        </REFOBJ>
       </COMP>
       <COMP relation="Descriptor">
         <OBJECT>

@@ -27,6 +27,11 @@
             <LINK relation="SuperType">
               <ID name="ObstacleInfranchissable" mc="Standard.Class" uid="3d023b2b-4558-4c9d-a5d2-273a62dc1885"/>
             </LINK>
+            <COMP relation="ConstraintDefinition">
+              <REFOBJ>
+                <ID name="disjoin, incomplete" mc="Standard.Constraint" uid="3d979f8b-e0ee-4329-a5f6-a2fa5a884a44"/>
+              </REFOBJ>
+            </COMP>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
