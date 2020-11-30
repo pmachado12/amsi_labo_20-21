@@ -27,6 +27,19 @@
             <LINK relation="SuperType">
               <ID name="Bottes" mc="Standard.Class" uid="a75251a3-c2d9-43b4-bc91-42db7b0348b7"/>
             </LINK>
+            <COMP relation="ConstraintDefinition">
+              <OBJECT>
+                <ID name="disjoin, incomplete" mc="Standard.Constraint" uid="d6bef4bc-f66d-4dda-98ed-6bfd8346b48a"/>
+                <ATTRIBUTES>
+                  <ATT name="BaseClass"></ATT>
+                  <ATT name="Body"></ATT>
+                  <ATT name="Language"></ATT>
+                  <ATT name="Name"><![CDATA[disjoin, incomplete]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>

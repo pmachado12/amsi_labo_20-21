@@ -17,7 +17,7 @@
     <DEPENDENCIES>
       <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="personnage" mc="Standard.AssociationEnd" uid="5b2ea9f0-5b12-4757-b6f3-0dd10e315ea6"/>
+          <ID name="avatar" mc="Standard.AssociationEnd" uid="5b2ea9f0-5b12-4757-b6f3-0dd10e315ea6"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -30,7 +30,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[personnage]]></ATT>
+            <ATT name="Name"><![CDATA[avatar]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -54,7 +54,7 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="personnage" mc="Standard.AssociationEnd" uid="5b2ea9f0-5b12-4757-b6f3-0dd10e315ea6"/>
+                    <COMPID name="avatar" mc="Standard.AssociationEnd" uid="5b2ea9f0-5b12-4757-b6f3-0dd10e315ea6"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>

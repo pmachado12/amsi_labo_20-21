@@ -27,6 +27,11 @@
             <LINK relation="SuperType">
               <ID name="Bonus" mc="Standard.Class" uid="df52acb1-4b71-4f7a-b38e-e03004da87ed"/>
             </LINK>
+            <COMP relation="ConstraintDefinition">
+              <REFOBJ>
+                <ID name="disjoin, incomplete" mc="Standard.Constraint" uid="f5efa95a-65f1-4b5d-95cc-963e405c2312"/>
+              </REFOBJ>
+            </COMP>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>

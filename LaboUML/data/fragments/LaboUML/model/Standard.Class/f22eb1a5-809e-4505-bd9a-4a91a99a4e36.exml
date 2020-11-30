@@ -17,7 +17,7 @@
     <DEPENDENCIES>
       <COMP relation="Parent">
         <OBJECT>
-          <ID name="Generalization" mc="Standard.Generalization" uid="29ee3382-6e29-45e2-93a3-466f996560f5"/>
+          <ID name="Generalization" mc="Standard.Generalization" uid="c3a0de7b-e9ae-407c-b138-4d2bdc47d0b6"/>
           <ATTRIBUTES>
             <ATT name="Discriminator"></ATT>
             <ATT name="Name"><![CDATA[Generalization]]></ATT>
@@ -25,8 +25,13 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="SuperType">
-              <ID name="Item" mc="Standard.Class" uid="ca2f79cc-4092-44d7-951e-78f5e5c92da2"/>
+              <ID name="Consommables" mc="Standard.Class" uid="cd0f2143-c45b-48f9-b6b6-cf48bafad995"/>
             </LINK>
+            <COMP relation="ConstraintDefinition">
+              <REFOBJ>
+                <ID name="disjoin, incomplete" mc="Standard.Constraint" uid="df8e24ef-216c-4e3e-a4f3-b6543bf7a0d3"/>
+              </REFOBJ>
+            </COMP>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>

@@ -27,6 +27,52 @@
             <LINK relation="SuperType">
               <ID name="Obstacle" mc="Standard.Class" uid="434165f4-5d41-4716-808f-fd1aeb086d9d"/>
             </LINK>
+            <COMP relation="ConstraintDefinition">
+              <OBJECT>
+                <ID name="disjoin, complete" mc="Standard.Constraint" uid="85ab920a-b9cf-4feb-86bc-574a7be7859c"/>
+                <ATTRIBUTES>
+                  <ATT name="BaseClass"></ATT>
+                  <ATT name="Body"></ATT>
+                  <ATT name="Language"></ATT>
+                  <ATT name="Name"><![CDATA[disjoin, complete]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="ConstraintDefinition">
+                    <OBJECT>
+                      <ID name="" mc="Standard.Constraint" uid="9ce78c9f-1e61-4b0d-bf08-73f8842cccbe"/>
+                      <ATTRIBUTES>
+                        <ATT name="BaseClass"></ATT>
+                        <ATT name="Body"><![CDATA[<Saisir le texte de la contrainte ici>]]></ATT>
+                        <ATT name="Language"></ATT>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Extension">
+                          <FOREIGNID name="complete" mc="Infrastructure.Stereotype" uid="00700680-0000-01f1-0000-000000000000"/>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID name="" mc="Standard.Constraint" uid="f1e801c3-925e-4922-96d5-bbe139db9300"/>
+                      <ATTRIBUTES>
+                        <ATT name="BaseClass"></ATT>
+                        <ATT name="Body"><![CDATA[<Saisir le texte de la contrainte ici>]]></ATT>
+                        <ATT name="Language"></ATT>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Extension">
+                          <FOREIGNID name="disjoin" mc="Infrastructure.Stereotype" uid="00700680-0000-01f5-0000-000000000000"/>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>

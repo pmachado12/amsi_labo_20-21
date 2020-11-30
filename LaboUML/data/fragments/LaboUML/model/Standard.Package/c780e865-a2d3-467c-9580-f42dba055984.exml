@@ -16,7 +16,7 @@
       <COMP relation="OwnedElement">
         <COMPID name="Joueur" mc="Standard.Class" uid="e97c6145-af6b-4f6c-849a-5ec45abd77a7"/>
         <COMPID name="Jeu" mc="Standard.Class" uid="cd3997f0-a27f-4f67-8e8a-848af6256043"/>
-        <COMPID name="Personnage" mc="Standard.Class" uid="bc682c22-8919-400e-b5e6-e2a7da937fbd"/>
+        <COMPID name="Avatar" mc="Standard.Class" uid="bc682c22-8919-400e-b5e6-e2a7da937fbd"/>
         <COMPID name="Monde" mc="Standard.Class" uid="bead764f-f4b8-47b5-ad79-92928833a317"/>
         <COMPID name="Match" mc="Standard.Class" uid="5106a048-9edf-4b2e-aa24-718f43daa640"/>
         <COMPID name="Rencontre" mc="Standard.Class" uid="a580874f-b305-411b-8601-79442a0c31cf"/>
@@ -69,10 +69,18 @@
         <COMPID name="Expert" mc="Standard.Class" uid="7f7351fd-57ab-4b07-b512-915c4ab50923"/>
         <COMPID name="Class" mc="Standard.Class" uid="9f76ed6a-c852-4896-afa2-f1c8dcf77373"/>
         <COMPID name="Case" mc="Standard.Class" uid="42d9dfd5-d932-43f0-a8dc-9189432e50ba"/>
+        <COMPID name="Consommables" mc="Standard.Class" uid="cd0f2143-c45b-48f9-b6b6-cf48bafad995"/>
+        <COMPID name="Inventaire" mc="Standard.Class" uid="de4cbcc2-8b57-48f6-9a9a-e56761cb7500"/>
+        <COMPID name="Action" mc="Standard.Class" uid="21507680-025a-4532-9610-f0c31c7486f4"/>
+        <COMPID name="SeDéplacer" mc="Standard.Class" uid="f7ab6126-9e18-4004-9a3b-464c115a8f94"/>
+        <COMPID name="UtiliserItem" mc="Standard.Class" uid="5e4b88d8-f0a3-419a-84de-87be158e44aa"/>
+        <COMPID name="Revêtir" mc="Standard.Class" uid="64d9c65e-730b-4f56-8735-362d80fc8255"/>
+        <COMPID name="Frapper" mc="Standard.Class" uid="e74cc5e5-d5eb-48d2-848d-454f74785818"/>
+        <COMPID name="Tirer" mc="Standard.Class" uid="356641ad-d26e-4909-aca6-ca081ecfd479"/>
+        <COMPID name="ConsulterRadar" mc="Standard.Class" uid="9500eafe-46a8-4cfd-9e58-62d4cf5537e2"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="PlateauxDeJeuDC" mc="Standard.ClassDiagram" uid="3552e2c9-c4c6-4a33-b33a-28c913268f79"/>
-        <COMPID name="Diagramme de classe DC" mc="Standard.ClassDiagram" uid="098b289e-92f0-49aa-ba76-4802013c688c"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

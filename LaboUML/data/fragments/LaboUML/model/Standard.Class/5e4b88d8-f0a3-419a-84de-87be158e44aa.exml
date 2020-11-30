@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Bottes" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="UtiliserItem" version="4">
   <OBJECT>
-    <ID name="Bottes" mc="Standard.Class" uid="a75251a3-c2d9-43b4-bc91-42db7b0348b7"/>
+    <ID name="UtiliserItem" mc="Standard.Class" uid="5e4b88d8-f0a3-419a-84de-87be158e44aa"/>
     <PID name="DC" mc="Standard.Package" uid="c780e865-a2d3-467c-9580-f42dba055984"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,13 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Bottes]]></ATT>
+      <ATT name="Name"><![CDATA[UtiliserItem]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="Parent">
         <OBJECT>
-          <ID name="Generalization" mc="Standard.Generalization" uid="39374f97-2e5c-45d3-8d31-0701bb89bab1"/>
+          <ID name="Generalization" mc="Standard.Generalization" uid="9e078502-b830-4859-a5a0-5e05a51d4bc0"/>
           <ATTRIBUTES>
             <ATT name="Discriminator"></ATT>
             <ATT name="Name"><![CDATA[Generalization]]></ATT>
@@ -25,13 +25,8 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="SuperType">
-              <ID name="Item" mc="Standard.Class" uid="ca2f79cc-4092-44d7-951e-78f5e5c92da2"/>
+              <ID name="Action" mc="Standard.Class" uid="21507680-025a-4532-9610-f0c31c7486f4"/>
             </LINK>
-            <COMP relation="ConstraintDefinition">
-              <REFOBJ>
-                <ID name="disjoin, incomplete" mc="Standard.Constraint" uid="55d8cf3e-a4a4-4000-ac1c-5f04ac43be30"/>
-              </REFOBJ>
-            </COMP>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>

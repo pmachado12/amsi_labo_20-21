@@ -27,6 +27,11 @@
             <LINK relation="SuperType">
               <ID name="ItemActivateur" mc="Standard.Class" uid="ea92d95f-3cd1-4f5b-a312-f9acd8ef92c7"/>
             </LINK>
+            <COMP relation="ConstraintDefinition">
+              <REFOBJ>
+                <ID name="disjoin, incomplete" mc="Standard.Constraint" uid="8df53de9-58d0-4de0-886c-9f68a1386b92"/>
+              </REFOBJ>
+            </COMP>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>

@@ -27,6 +27,11 @@
             <LINK relation="SuperType">
               <ID name="Obstacle" mc="Standard.Class" uid="434165f4-5d41-4716-808f-fd1aeb086d9d"/>
             </LINK>
+            <COMP relation="ConstraintDefinition">
+              <REFOBJ>
+                <ID name="disjoin, complete" mc="Standard.Constraint" uid="85ab920a-b9cf-4feb-86bc-574a7be7859c"/>
+              </REFOBJ>
+            </COMP>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>

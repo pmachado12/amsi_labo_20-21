@@ -85,6 +85,11 @@
             <LINK relation="SuperType">
               <ID name="PersonnageBase" mc="Standard.Class" uid="d15742a4-f772-404c-94da-10fa926f13bc"/>
             </LINK>
+            <COMP relation="ConstraintDefinition">
+              <REFOBJ>
+                <ID name="disjoin, incomplete" mc="Standard.Constraint" uid="e6dee15d-67d0-4a8d-92c6-cc044a2441e1"/>
+              </REFOBJ>
+            </COMP>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
