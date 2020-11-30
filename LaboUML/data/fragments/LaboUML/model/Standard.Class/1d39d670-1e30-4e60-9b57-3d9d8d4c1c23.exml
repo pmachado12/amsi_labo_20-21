@@ -32,6 +32,11 @@
             <LINK relation="SuperType">
               <ID name="Joueur" mc="Standard.Class" uid="e97c6145-af6b-4f6c-849a-5ec45abd77a7"/>
             </LINK>
+            <COMP relation="ConstraintDefinition">
+              <REFOBJ>
+                <ID name="disjoin, complete" mc="Standard.Constraint" uid="1e2aa830-27dc-4be8-940b-3a40506f2dd8"/>
+              </REFOBJ>
+            </COMP>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>

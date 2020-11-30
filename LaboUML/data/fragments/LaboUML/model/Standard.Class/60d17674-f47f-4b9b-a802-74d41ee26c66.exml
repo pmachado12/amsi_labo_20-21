@@ -53,6 +53,11 @@
             <LINK relation="SuperType">
               <ID name="Figurine" mc="Standard.Class" uid="713c31d9-5f30-47a0-af1d-bb03004dd723"/>
             </LINK>
+            <COMP relation="ConstraintDefinition">
+              <REFOBJ>
+                <ID name="disjoin, complete" mc="Standard.Constraint" uid="f9d9c975-12b5-4dbb-ad78-2392df17f283"/>
+              </REFOBJ>
+            </COMP>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>

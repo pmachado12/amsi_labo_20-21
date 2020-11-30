@@ -27,6 +27,11 @@
             <LINK relation="SuperType">
               <ID name="Difficulté" mc="Standard.Class" uid="c312b695-9ec8-405a-bc66-16a673405372"/>
             </LINK>
+            <COMP relation="ConstraintDefinition">
+              <REFOBJ>
+                <ID name="disjon, incomplete" mc="Standard.Constraint" uid="e8b139bb-fd72-43d9-add5-75d3495e1501"/>
+              </REFOBJ>
+            </COMP>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
