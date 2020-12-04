@@ -41,6 +41,10 @@
         <COMPID name="Iteration" mc="Standard.Class" uid="157dd909-a44c-4d1d-ae66-e7d97ba00b03"/>
         <COMPID name="Affectation" mc="Standard.Class" uid="2b4c3238-7785-432f-b966-67e78316e11e"/>
         <COMPID name="Action" mc="Standard.Class" uid="4bb820b0-8da2-4a3f-885e-586674f6edc9"/>
+        <COMPID name="Variable" mc="Standard.Class" uid="9da21922-1e2f-45c7-b230-5449d2baec71"/>
+        <COMPID name="Module" mc="Standard.Class" uid="bdd6397b-9008-44ff-b58e-14d9e7b968cf"/>
+        <COMPID name="Declancheur" mc="Standard.Class" uid="29b71c2d-80d6-4731-b5f8-b326e4767ff6"/>
+        <COMPID name="Reaction" mc="Standard.Class" uid="5f1ea7a1-91c2-4cd5-8517-c1be62783629"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="StrategiesDeJeu" mc="Standard.ClassDiagram" uid="60ede6b9-f8d2-4c2c-9ab8-64d876b951a1"/>

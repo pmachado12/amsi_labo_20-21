@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Strategie" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Variable" version="4">
   <OBJECT>
-    <ID name="Strategie" mc="Standard.Class" uid="cc8f5c58-19da-4623-9ea3-e0784bae8ca2"/>
+    <ID name="Variable" mc="Standard.Class" uid="9da21922-1e2f-45c7-b230-5449d2baec71"/>
     <PID name="StrategiesDeJeu" mc="Standard.Package" uid="c144b141-e88f-4540-8a71-427ef1a225e1"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,19 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Strategie]]></ATT>
+      <ATT name="Name"><![CDATA[Variable]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedEnd">
-        <REFOBJ>
-          <ID name="vision" mc="Standard.AssociationEnd" uid="15667f5f-8676-4591-91e4-e3be5115c76a"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="" mc="Standard.AssociationEnd" uid="b306f244-b11f-4872-badc-deeecebf2f17"/>
-        </REFOBJ>
         <OBJECT>
-          <ID name="variable" mc="Standard.AssociationEnd" uid="552cac2e-5128-45bf-b769-7db21b3a2852"/>
+          <ID name="" mc="Standard.AssociationEnd" uid="1b24de44-482a-4e5f-a4db-54cc8ef5591b"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -31,29 +25,24 @@
             <ATT name="IsDerived">false</ATT>
             <ATT name="IsOrdered">false</ATT>
             <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMin"></ATT>
             <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
-            <ATT name="Visibility">VisibilityUndefined</ATT>
+            <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[variable]]></ATT>
+            <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <COMP relation="Opposite">
               <REFOBJ>
-                <ID name="" mc="Standard.AssociationEnd" uid="1b24de44-482a-4e5f-a4db-54cc8ef5591b"/>
+                <ID name="variable" mc="Standard.AssociationEnd" uid="552cac2e-5128-45bf-b769-7db21b3a2852"/>
               </REFOBJ>
             </COMP>
             <COMP relation="Association">
-              <OBJECT>
+              <REFOBJ>
                 <ID name="possède" mc="Standard.Association" uid="de2268d0-a0eb-4c1b-896b-f379d91da0cc"/>
-                <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[possède]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES></DEPENDENCIES>
-              </OBJECT>
+              </REFOBJ>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
