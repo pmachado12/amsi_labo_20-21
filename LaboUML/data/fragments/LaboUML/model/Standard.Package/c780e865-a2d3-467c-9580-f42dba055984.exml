@@ -78,6 +78,55 @@
         <COMPID name="Frapper" mc="Standard.Class" uid="e74cc5e5-d5eb-48d2-848d-454f74785818"/>
         <COMPID name="Tirer" mc="Standard.Class" uid="356641ad-d26e-4909-aca6-ca081ecfd479"/>
         <COMPID name="ConsulterRadar" mc="Standard.Class" uid="9500eafe-46a8-4cfd-9e58-62d4cf5537e2"/>
+        <OBJECT>
+          <ID name="Direction" mc="Standard.Enumeration" uid="1b6d6fcc-14d5-48a6-b6d6-31b9c5d12ce9"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">VisibilityUndefined</ATT>
+            <ATT name="Name"><![CDATA[Direction]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="Haut" mc="Standard.EnumerationLiteral" uid="dd717884-4aa3-4195-a33d-b184b39cbd02"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Haut]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Bas" mc="Standard.EnumerationLiteral" uid="13599f3e-e3c3-4505-9001-9744264514cc"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Bas]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Gauche" mc="Standard.EnumerationLiteral" uid="c252ff59-ce08-4f0a-95b2-b70e2ac76c2d"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Gauche]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Droite" mc="Standard.EnumerationLiteral" uid="1ff0a293-45d5-447d-ae81-15294de703da"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Droite]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="Brouillard" mc="Standard.Class" uid="b39398b2-99a3-43ce-8355-dd858194650c"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="PlateauxDeJeuDC" mc="Standard.ClassDiagram" uid="3552e2c9-c4c6-4a33-b33a-28c913268f79"/>

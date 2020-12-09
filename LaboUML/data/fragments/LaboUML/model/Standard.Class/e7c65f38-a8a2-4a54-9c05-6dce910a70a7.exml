@@ -38,14 +38,14 @@
               <OBJECT>
                 <ID name="strategieDeJeu" mc="Standard.AssociationEnd" uid="fa29ce71-5edc-4155-8cac-9bb4668c50f8"/>
                 <ATTRIBUTES>
-                  <ATT name="Aggregation">KindIsAssociation</ATT>
+                  <ATT name="Aggregation">KindIsComposition</ATT>
                   <ATT name="IsChangeable">true</ATT>
                   <ATT name="Changeable">ReadWrite</ATT>
                   <ATT name="IsDerived">false</ATT>
                   <ATT name="IsOrdered">false</ATT>
                   <ATT name="IsUnique">false</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
-                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
                   <ATT name="Visibility">Public</ATT>
                   <ATT name="IsClass">false</ATT>
                   <ATT name="IsAbstract">false</ATT>
@@ -58,9 +58,9 @@
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="selectionne" mc="Standard.Association" uid="f506ee62-2728-4abb-9230-163f8b21b8c6"/>
+                      <ID name="" mc="Standard.Association" uid="f506ee62-2728-4abb-9230-163f8b21b8c6"/>
                       <ATTRIBUTES>
-                        <ATT name="Name"><![CDATA[selectionne]]></ATT>
+                        <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES></DEPENDENCIES>
@@ -70,7 +70,7 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="selectionne" mc="Standard.Association" uid="f506ee62-2728-4abb-9230-163f8b21b8c6"/>
+              <COMPID name="" mc="Standard.Association" uid="f506ee62-2728-4abb-9230-163f8b21b8c6"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>

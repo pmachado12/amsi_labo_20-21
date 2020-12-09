@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Mode" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Brouillard" version="4">
   <OBJECT>
-    <ID name="Mode" mc="Standard.Class" uid="94b8df39-aeea-4d79-9917-6e7004d681ae"/>
+    <ID name="Brouillard" mc="Standard.Class" uid="b39398b2-99a3-43ce-8355-dd858194650c"/>
     <PID name="DC" mc="Standard.Package" uid="c780e865-a2d3-467c-9580-f42dba055984"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,16 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Mode]]></ATT>
+      <ATT name="Name"><![CDATA[Brouillard]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedEnd">
-        <REFOBJ>
-          <ID name="match" mc="Standard.AssociationEnd" uid="3073d245-0898-4187-8cf8-24bbe0e1356a"/>
-        </REFOBJ>
         <OBJECT>
-          <ID name="" mc="Standard.AssociationEnd" uid="17505e80-a9b1-4f38-a25f-0374709cf013"/>
+          <ID name="" mc="Standard.AssociationEnd" uid="a3be1efa-2f7f-41a9-b209-53e86dabf3d4"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -28,7 +25,7 @@
             <ATT name="IsDerived">false</ATT>
             <ATT name="IsOrdered">false</ATT>
             <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
             <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
@@ -39,9 +36,9 @@
           <DEPENDENCIES>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="mode" mc="Standard.AssociationEnd" uid="70ea2ea3-baeb-42ac-a8bc-419b93f60165"/>
+                <ID name="brouillard" mc="Standard.AssociationEnd" uid="0426687b-13f7-4e92-a9ff-1a6c24866be0"/>
                 <ATTRIBUTES>
-                  <ATT name="Aggregation">KindIsAssociation</ATT>
+                  <ATT name="Aggregation">KindIsComposition</ATT>
                   <ATT name="IsChangeable">true</ATT>
                   <ATT name="Changeable">ReadWrite</ATT>
                   <ATT name="IsDerived">false</ATT>
@@ -52,18 +49,18 @@
                   <ATT name="Visibility">Public</ATT>
                   <ATT name="IsClass">false</ATT>
                   <ATT name="IsAbstract">false</ATT>
-                  <ATT name="Name"><![CDATA[mode]]></ATT>
+                  <ATT name="Name"><![CDATA[brouillard]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="" mc="Standard.AssociationEnd" uid="17505e80-a9b1-4f38-a25f-0374709cf013"/>
+                    <COMPID name="" mc="Standard.AssociationEnd" uid="a3be1efa-2f7f-41a9-b209-53e86dabf3d4"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="choisit" mc="Standard.Association" uid="31147a46-c92e-478f-8fe5-4cf76d6e47c3"/>
+                      <ID name="" mc="Standard.Association" uid="737c23cc-8c0a-4b20-a58d-b7a5ce2c2600"/>
                       <ATTRIBUTES>
-                        <ATT name="Name"><![CDATA[choisit]]></ATT>
+                        <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES></DEPENDENCIES>
@@ -73,7 +70,7 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="choisit" mc="Standard.Association" uid="31147a46-c92e-478f-8fe5-4cf76d6e47c3"/>
+              <COMPID name="" mc="Standard.Association" uid="737c23cc-8c0a-4b20-a58d-b7a5ce2c2600"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>

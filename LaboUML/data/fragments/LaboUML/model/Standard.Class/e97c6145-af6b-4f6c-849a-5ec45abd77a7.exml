@@ -120,14 +120,14 @@
           <DEPENDENCIES>
             <COMP relation="Opposite">
               <REFOBJ>
-                <ID name="joueur" mc="Standard.AssociationEnd" uid="bf72b300-a46d-4f76-a98a-8577ce3be6d4"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="bf72b300-a46d-4f76-a98a-8577ce3be6d4"/>
               </REFOBJ>
             </COMP>
             <COMP relation="Association">
               <OBJECT>
-                <ID name="possède" mc="Standard.Association" uid="679d9559-7fdf-470f-b7c0-5afa64dda259"/>
+                <ID name="" mc="Standard.Association" uid="679d9559-7fdf-470f-b7c0-5afa64dda259"/>
                 <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[possède]]></ATT>
+                  <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES></DEPENDENCIES>
@@ -137,6 +137,9 @@
         </OBJECT>
         <REFOBJ>
           <ID name="strategieDeJeu" mc="Standard.AssociationEnd" uid="fa29ce71-5edc-4155-8cac-9bb4668c50f8"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="mode" mc="Standard.AssociationEnd" uid="70ea2ea3-baeb-42ac-a8bc-419b93f60165"/>
         </REFOBJ>
       </COMP>
     </DEPENDENCIES>
