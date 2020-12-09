@@ -36,7 +36,7 @@
           <DEPENDENCIES>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="case" mc="Standard.AssociationEnd" uid="cdb44051-90af-4dd7-a203-4a2189f6e8bb"/>
+                <ID name="obstacle" mc="Standard.AssociationEnd" uid="cdb44051-90af-4dd7-a203-4a2189f6e8bb"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsComposition</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -49,7 +49,7 @@
                   <ATT name="Visibility">Public</ATT>
                   <ATT name="IsClass">false</ATT>
                   <ATT name="IsAbstract">false</ATT>
-                  <ATT name="Name"><![CDATA[case]]></ATT>
+                  <ATT name="Name"><![CDATA[obstacle]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>

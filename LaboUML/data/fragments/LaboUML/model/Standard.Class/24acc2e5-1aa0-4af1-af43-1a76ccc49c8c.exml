@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Iteration" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Énumération" version="4">
   <OBJECT>
-    <ID name="Iteration" mc="Standard.Class" uid="157dd909-a44c-4d1d-ae66-e7d97ba00b03"/>
+    <ID name="Énumération" mc="Standard.Class" uid="24acc2e5-1aa0-4af1-af43-1a76ccc49c8c"/>
     <PID name="StrategiesDeJeu" mc="Standard.Package" uid="c144b141-e88f-4540-8a71-427ef1a225e1"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,13 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Iteration]]></ATT>
+      <ATT name="Name"><![CDATA[Énumération]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="iteration" mc="Standard.AssociationEnd" uid="78c329c7-e8d7-4dcf-a988-3bd849e6c786"/>
+          <ID name="châineDeCaratère" mc="Standard.AssociationEnd" uid="f201640d-7092-4a08-b2ab-97f23249d912"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsComposition</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -30,16 +30,16 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[iteration]]></ATT>
+            <ATT name="Name"><![CDATA[châineDeCaratère]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Iteration" mc="Standard.Class" uid="157dd909-a44c-4d1d-ae66-e7d97ba00b03"/>
+              <ID name="ChâineDeCaratère" mc="Standard.Class" uid="a8ba96de-b797-4ae6-b8e4-2e5c41c13a31"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="04d0d6ae-82cf-4b95-8192-e5214376bdbe"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="118f0f23-0c47-4970-ae84-9ba2fde90ecc"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -47,7 +47,7 @@
                   <ATT name="IsDerived">false</ATT>
                   <ATT name="IsOrdered">false</ATT>
                   <ATT name="IsUnique">false</ATT>
-                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
                   <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
                   <ATT name="Visibility">Public</ATT>
                   <ATT name="IsClass">false</ATT>
@@ -57,13 +57,13 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="iteration" mc="Standard.AssociationEnd" uid="78c329c7-e8d7-4dcf-a988-3bd849e6c786"/>
+                    <COMPID name="châineDeCaratère" mc="Standard.AssociationEnd" uid="f201640d-7092-4a08-b2ab-97f23249d912"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="possède" mc="Standard.Association" uid="81f10372-5080-4799-a2e9-d28a9fab170c"/>
+                      <ID name="est composé de" mc="Standard.Association" uid="4c5f2369-789b-4cb2-82cc-3a24f3b675b2"/>
                       <ATTRIBUTES>
-                        <ATT name="Name"><![CDATA[possède]]></ATT>
+                        <ATT name="Name"><![CDATA[est composé de]]></ATT>
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES></DEPENDENCIES>
@@ -73,23 +73,8 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="possède" mc="Standard.Association" uid="81f10372-5080-4799-a2e9-d28a9fab170c"/>
+              <COMPID name="est composé de" mc="Standard.Association" uid="4c5f2369-789b-4cb2-82cc-3a24f3b675b2"/>
             </COMP>
-          </DEPENDENCIES>
-        </OBJECT>
-      </COMP>
-      <COMP relation="Parent">
-        <OBJECT>
-          <ID name="Generalization" mc="Standard.Generalization" uid="4848c052-493b-41c8-93a4-e7d26ee13159"/>
-          <ATTRIBUTES>
-            <ATT name="Discriminator"></ATT>
-            <ATT name="Name"><![CDATA[Generalization]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="SuperType">
-              <ID name="Instruction" mc="Standard.Class" uid="55b84be5-cd0a-4f5b-9e01-3a5cc0fc81c9"/>
-            </LINK>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>

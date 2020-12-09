@@ -45,6 +45,22 @@
         <COMPID name="Module" mc="Standard.Class" uid="bdd6397b-9008-44ff-b58e-14d9e7b968cf"/>
         <COMPID name="Declancheur" mc="Standard.Class" uid="29b71c2d-80d6-4731-b5f8-b326e4767ff6"/>
         <COMPID name="Reaction" mc="Standard.Class" uid="5f1ea7a1-91c2-4cd5-8517-c1be62783629"/>
+        <COMPID name="VariableGlobal" mc="Standard.Class" uid="4e01d501-ba63-446c-b900-12e973042c4b"/>
+        <COMPID name="VariableLocal" mc="Standard.Class" uid="ec5b02f0-4c96-43b4-a190-8205ced4d182"/>
+        <COMPID name="TypePrimitif" mc="Standard.Class" uid="d830e53b-ce90-4759-b2a4-b5492b5569db"/>
+        <COMPID name="Boolean" mc="Standard.Class" uid="41445070-4ce1-4474-982c-b2a45799d87e"/>
+        <COMPID name="Entier" mc="Standard.Class" uid="16a1df52-aef5-4e6f-a6d9-80516362c32f"/>
+        <COMPID name="Réel" mc="Standard.Class" uid="caf819ea-bff4-4540-acd3-2dc42bae809a"/>
+        <COMPID name="ChâineDeCaratère" mc="Standard.Class" uid="a8ba96de-b797-4ae6-b8e4-2e5c41c13a31"/>
+        <COMPID name="Tableau" mc="Standard.Class" uid="2c424a81-e28a-4ac6-9714-e1b34c4b9a6d"/>
+        <COMPID name="Énumération" mc="Standard.Class" uid="24acc2e5-1aa0-4af1-af43-1a76ccc49c8c"/>
+        <COMPID name="Enregistrement" mc="Standard.Class" uid="e892966b-ad44-4fb6-a2fc-abf5380cf7fd"/>
+        <COMPID name="OperateurBinaire" mc="Standard.Class" uid="f86f68e3-bb18-4f03-aa1c-9dce98776164"/>
+        <COMPID name="OperateurUnaire" mc="Standard.Class" uid="2203c117-c37d-407b-be86-9217bc2d23a4"/>
+        <COMPID name="Operateur" mc="Standard.Class" uid="b9400c64-ff3a-4ea5-b238-b0afeb6bedab"/>
+        <COMPID name="AffectationGauche" mc="Standard.Class" uid="76927ecd-424a-41a9-9ec4-fa714cd41f89"/>
+        <COMPID name="AffectationDroite" mc="Standard.Class" uid="7cd401cf-ae1f-42cf-af6d-dfdead57d894"/>
+        <COMPID name="Parametres" mc="Standard.Class" uid="3b56a634-10df-49e9-82a2-d42a8ea33566"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="StrategiesDeJeu" mc="Standard.ClassDiagram" uid="60ede6b9-f8d2-4c2c-9ab8-64d876b951a1"/>

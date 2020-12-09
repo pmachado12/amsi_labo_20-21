@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Literal" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="AffectationDroite" version="4">
   <OBJECT>
-    <ID name="Literal" mc="Standard.Class" uid="6221ffab-34ea-4b3e-b414-2e2be1d21c82"/>
+    <ID name="AffectationDroite" mc="Standard.Class" uid="7cd401cf-ae1f-42cf-af6d-dfdead57d894"/>
     <PID name="StrategiesDeJeu" mc="Standard.Package" uid="c144b141-e88f-4540-8a71-427ef1a225e1"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,13 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Literal]]></ATT>
+      <ATT name="Name"><![CDATA[AffectationDroite]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="Parent">
         <OBJECT>
-          <ID name="Generalization" mc="Standard.Generalization" uid="14f0f672-c359-4c31-af40-b46e1bc5e132"/>
+          <ID name="Generalization" mc="Standard.Generalization" uid="bd35779c-6464-4db8-882a-d5a763732832"/>
           <ATTRIBUTES>
             <ATT name="Discriminator"></ATT>
             <ATT name="Name"><![CDATA[Generalization]]></ATT>
@@ -25,7 +25,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="SuperType">
-              <ID name="Expression" mc="Standard.Class" uid="8284b112-78ec-4f56-80a4-e7c513bb92ed"/>
+              <ID name="Affectation" mc="Standard.Class" uid="2b4c3238-7785-432f-b966-67e78316e11e"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>

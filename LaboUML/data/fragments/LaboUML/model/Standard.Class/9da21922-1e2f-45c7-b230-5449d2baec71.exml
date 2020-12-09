@@ -35,14 +35,42 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <COMP relation="Opposite">
-              <REFOBJ>
+              <OBJECT>
                 <ID name="variable" mc="Standard.AssociationEnd" uid="552cac2e-5128-45bf-b769-7db21b3a2852"/>
-              </REFOBJ>
+                <ATTRIBUTES>
+                  <ATT name="Aggregation">KindIsComposition</ATT>
+                  <ATT name="IsChangeable">true</ATT>
+                  <ATT name="Changeable">ReadWrite</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
+                  <ATT name="Visibility">VisibilityUndefined</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"><![CDATA[variable]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Opposite">
+                    <COMPID name="" mc="Standard.AssociationEnd" uid="1b24de44-482a-4e5f-a4db-54cc8ef5591b"/>
+                  </COMP>
+                  <COMP relation="Association">
+                    <OBJECT>
+                      <ID name="possède" mc="Standard.Association" uid="de2268d0-a0eb-4c1b-896b-f379d91da0cc"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"><![CDATA[possède]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <REFOBJ>
-                <ID name="possède" mc="Standard.Association" uid="de2268d0-a0eb-4c1b-896b-f379d91da0cc"/>
-              </REFOBJ>
+              <COMPID name="possède" mc="Standard.Association" uid="de2268d0-a0eb-4c1b-896b-f379d91da0cc"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
