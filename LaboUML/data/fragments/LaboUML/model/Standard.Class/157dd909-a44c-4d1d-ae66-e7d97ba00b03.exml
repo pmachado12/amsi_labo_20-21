@@ -17,29 +17,29 @@
     <DEPENDENCIES>
       <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="iteration" mc="Standard.AssociationEnd" uid="78c329c7-e8d7-4dcf-a988-3bd849e6c786"/>
+          <ID name="instruction" mc="Standard.AssociationEnd" uid="24ffcb13-42db-4a13-be77-b8bdd86602d1"/>
           <ATTRIBUTES>
-            <ATT name="Aggregation">KindIsComposition</ATT>
+            <ATT name="Aggregation">KindIsAggregation</ATT>
             <ATT name="IsChangeable">true</ATT>
             <ATT name="Changeable">ReadWrite</ATT>
             <ATT name="IsDerived">false</ATT>
             <ATT name="IsOrdered">false</ATT>
             <ATT name="IsUnique">false</ATT>
             <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
-            <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[iteration]]></ATT>
+            <ATT name="Name"><![CDATA[instruction]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Iteration" mc="Standard.Class" uid="157dd909-a44c-4d1d-ae66-e7d97ba00b03"/>
+              <ID name="Instruction" mc="Standard.Class" uid="55b84be5-cd0a-4f5b-9e01-3a5cc0fc81c9"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="04d0d6ae-82cf-4b95-8192-e5214376bdbe"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="67ee1b61-82fe-49b9-9a80-e66a51f08bd0"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -47,7 +47,7 @@
                   <ATT name="IsDerived">false</ATT>
                   <ATT name="IsOrdered">false</ATT>
                   <ATT name="IsUnique">false</ATT>
-                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
                   <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
                   <ATT name="Visibility">Public</ATT>
                   <ATT name="IsClass">false</ATT>
@@ -57,13 +57,13 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="iteration" mc="Standard.AssociationEnd" uid="78c329c7-e8d7-4dcf-a988-3bd849e6c786"/>
+                    <COMPID name="instruction" mc="Standard.AssociationEnd" uid="24ffcb13-42db-4a13-be77-b8bdd86602d1"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="possède" mc="Standard.Association" uid="81f10372-5080-4799-a2e9-d28a9fab170c"/>
+                      <ID name="" mc="Standard.Association" uid="52632c04-c40b-4141-87b8-71ad583e87fd"/>
                       <ATTRIBUTES>
-                        <ATT name="Name"><![CDATA[possède]]></ATT>
+                        <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES></DEPENDENCIES>
@@ -73,7 +73,7 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="possède" mc="Standard.Association" uid="81f10372-5080-4799-a2e9-d28a9fab170c"/>
+              <COMPID name="" mc="Standard.Association" uid="52632c04-c40b-4141-87b8-71ad583e87fd"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>

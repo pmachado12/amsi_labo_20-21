@@ -15,6 +15,11 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="OwnedEnd">
+        <REFOBJ>
+          <ID name="item" mc="Standard.AssociationEnd" uid="ba28965e-2711-4b38-9152-76c907c873bb"/>
+        </REFOBJ>
+      </COMP>
       <COMP relation="Parent">
         <OBJECT>
           <ID name="Generalization" mc="Standard.Generalization" uid="88894ebe-77f2-4e4a-bb1f-677fbc05333f"/>

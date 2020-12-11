@@ -77,6 +77,9 @@
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
+        <REFOBJ>
+          <ID name="boolean" mc="Standard.AssociationEnd" uid="ba9c625a-09db-40b2-bc8b-04ccd8885cde"/>
+        </REFOBJ>
       </COMP>
       <COMP relation="Parent">
         <OBJECT>

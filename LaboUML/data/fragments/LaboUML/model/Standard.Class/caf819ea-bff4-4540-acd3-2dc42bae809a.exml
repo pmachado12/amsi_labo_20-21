@@ -17,7 +17,7 @@
     <DEPENDENCIES>
       <COMP relation="Parent">
         <OBJECT>
-          <ID name="Generalization" mc="Standard.Generalization" uid="2dd2a258-297f-4e98-aafa-741ab8201c24"/>
+          <ID name="Generalization" mc="Standard.Generalization" uid="02b95e6c-6cfa-494e-b07f-1cdfc549ce3d"/>
           <ATTRIBUTES>
             <ATT name="Discriminator"></ATT>
             <ATT name="Name"><![CDATA[Generalization]]></ATT>
@@ -25,7 +25,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="SuperType">
-              <ID name="TypePrimitif" mc="Standard.Class" uid="d830e53b-ce90-4759-b2a4-b5492b5569db"/>
+              <ID name="Numérique" mc="Standard.Class" uid="531314d6-1999-4285-892f-72a78d5cc2f8"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>

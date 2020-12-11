@@ -15,6 +15,23 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="OwnedEnd">
+        <REFOBJ>
+          <ID name="contourner" mc="Standard.AssociationEnd" uid="a9692453-3ae1-4145-b467-047886663a1b"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="case" mc="Standard.AssociationEnd" uid="862dbee7-75e2-44c9-9996-2e99c1d8b5d5"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="zombie" mc="Standard.AssociationEnd" uid="8488c2f3-ed84-403f-8834-605e61e8fbac"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="joueur" mc="Standard.AssociationEnd" uid="fcb42a68-d142-4b75-95d4-f2c00030af16"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="allerVers" mc="Standard.AssociationEnd" uid="f8affd28-6301-4281-a273-025f863b78ea"/>
+        </REFOBJ>
+      </COMP>
       <COMP relation="Parent">
         <OBJECT>
           <ID name="Generalization" mc="Standard.Generalization" uid="310e1475-39e7-4502-b416-b6d0208dee43"/>

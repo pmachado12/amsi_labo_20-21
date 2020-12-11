@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Instruction" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Numérique" version="4">
   <OBJECT>
-    <ID name="Instruction" mc="Standard.Class" uid="55b84be5-cd0a-4f5b-9e01-3a5cc0fc81c9"/>
+    <ID name="Numérique" mc="Standard.Class" uid="531314d6-1999-4285-892f-72a78d5cc2f8"/>
     <PID name="StrategiesDeJeu" mc="Standard.Package" uid="c144b141-e88f-4540-8a71-427ef1a225e1"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,16 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Instruction]]></ATT>
+      <ATT name="Name"><![CDATA[Numérique]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedEnd">
-        <REFOBJ>
-          <ID name="expression" mc="Standard.AssociationEnd" uid="620d2921-3161-4064-9882-099ad62abbb8"/>
-        </REFOBJ>
         <OBJECT>
-          <ID name="" mc="Standard.AssociationEnd" uid="5d052865-cc01-44fe-87a7-1d113441956a"/>
+          <ID name="" mc="Standard.AssociationEnd" uid="1dfbdb06-b64b-4340-ba36-94c37469fb8e"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -39,7 +36,7 @@
           <DEPENDENCIES>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="instruction" mc="Standard.AssociationEnd" uid="c575ff6d-4f0c-42ec-a75f-f46183909940"/>
+                <ID name="numérique" mc="Standard.AssociationEnd" uid="ddb36cc0-ce6f-4e22-9a58-bea3d3547069"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAggregation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -48,22 +45,22 @@
                   <ATT name="IsOrdered">false</ATT>
                   <ATT name="IsUnique">false</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-                  <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
                   <ATT name="Visibility">Public</ATT>
                   <ATT name="IsClass">false</ATT>
                   <ATT name="IsAbstract">false</ATT>
-                  <ATT name="Name"><![CDATA[instruction]]></ATT>
+                  <ATT name="Name"><![CDATA[numérique]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="" mc="Standard.AssociationEnd" uid="5d052865-cc01-44fe-87a7-1d113441956a"/>
+                    <COMPID name="" mc="Standard.AssociationEnd" uid="1dfbdb06-b64b-4340-ba36-94c37469fb8e"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="utilise" mc="Standard.Association" uid="54564167-5d98-447f-9c8b-91a47ef74905"/>
+                      <ID name="constitué de" mc="Standard.Association" uid="622b7419-563c-4c1b-a341-6e6a7f5a411c"/>
                       <ATTRIBUTES>
-                        <ATT name="Name"><![CDATA[utilise]]></ATT>
+                        <ATT name="Name"><![CDATA[constitué de]]></ATT>
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES></DEPENDENCIES>
@@ -73,8 +70,23 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="utilise" mc="Standard.Association" uid="54564167-5d98-447f-9c8b-91a47ef74905"/>
+              <COMPID name="constitué de" mc="Standard.Association" uid="622b7419-563c-4c1b-a341-6e6a7f5a411c"/>
             </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Standard.Generalization" uid="89087199-a8c4-4318-8b1e-6497485dc2a1"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="TypePrimitif" mc="Standard.Class" uid="d830e53b-ce90-4759-b2a4-b5492b5569db"/>
+            </LINK>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>

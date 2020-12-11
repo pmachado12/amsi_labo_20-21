@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Instruction" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Valeur" version="4">
   <OBJECT>
-    <ID name="Instruction" mc="Standard.Class" uid="55b84be5-cd0a-4f5b-9e01-3a5cc0fc81c9"/>
+    <ID name="Valeur" mc="Standard.Class" uid="f67923dc-c977-4559-b5cc-a34f7683e3ff"/>
     <PID name="StrategiesDeJeu" mc="Standard.Package" uid="c144b141-e88f-4540-8a71-427ef1a225e1"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,16 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Instruction]]></ATT>
+      <ATT name="Name"><![CDATA[Valeur]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedEnd">
-        <REFOBJ>
-          <ID name="expression" mc="Standard.AssociationEnd" uid="620d2921-3161-4064-9882-099ad62abbb8"/>
-        </REFOBJ>
         <OBJECT>
-          <ID name="" mc="Standard.AssociationEnd" uid="5d052865-cc01-44fe-87a7-1d113441956a"/>
+          <ID name="" mc="Standard.AssociationEnd" uid="b67d7da0-f88c-4a69-ab64-6cac0765ccd4"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -28,8 +25,8 @@
             <ATT name="IsDerived">false</ATT>
             <ATT name="IsOrdered">false</ATT>
             <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
-            <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
@@ -39,7 +36,7 @@
           <DEPENDENCIES>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="instruction" mc="Standard.AssociationEnd" uid="c575ff6d-4f0c-42ec-a75f-f46183909940"/>
+                <ID name="Module" mc="Standard.AssociationEnd" uid="3f93eb03-6d54-4c8e-a39d-5a1401ce1c6c"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAggregation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -48,22 +45,22 @@
                   <ATT name="IsOrdered">false</ATT>
                   <ATT name="IsUnique">false</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-                  <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
                   <ATT name="Visibility">Public</ATT>
                   <ATT name="IsClass">false</ATT>
                   <ATT name="IsAbstract">false</ATT>
-                  <ATT name="Name"><![CDATA[instruction]]></ATT>
+                  <ATT name="Name"><![CDATA[Module]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="" mc="Standard.AssociationEnd" uid="5d052865-cc01-44fe-87a7-1d113441956a"/>
+                    <COMPID name="" mc="Standard.AssociationEnd" uid="b67d7da0-f88c-4a69-ab64-6cac0765ccd4"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="utilise" mc="Standard.Association" uid="54564167-5d98-447f-9c8b-91a47ef74905"/>
+                      <ID name="retourne" mc="Standard.Association" uid="b322de20-aa1f-4146-9219-054f52c6bd13"/>
                       <ATTRIBUTES>
-                        <ATT name="Name"><![CDATA[utilise]]></ATT>
+                        <ATT name="Name"><![CDATA[retourne]]></ATT>
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES></DEPENDENCIES>
@@ -73,10 +70,13 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="utilise" mc="Standard.Association" uid="54564167-5d98-447f-9c8b-91a47ef74905"/>
+              <COMPID name="retourne" mc="Standard.Association" uid="b322de20-aa1f-4146-9219-054f52c6bd13"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
+        <REFOBJ>
+          <ID name="typePrimitif" mc="Standard.AssociationEnd" uid="9103c302-3a3c-46f5-ad30-0ba8ba128248"/>
+        </REFOBJ>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

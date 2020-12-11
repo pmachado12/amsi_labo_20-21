@@ -31,10 +31,10 @@
         <COMPID name="MetaRegle" mc="Standard.Class" uid="55bdc600-4e1c-4804-8d8b-ab06ba88dc78"/>
         <COMPID name="Expression" mc="Standard.Class" uid="8284b112-78ec-4f56-80a4-e7c513bb92ed"/>
         <COMPID name="Literal" mc="Standard.Class" uid="6221ffab-34ea-4b3e-b414-2e2be1d21c82"/>
-        <COMPID name="ExpressionBinaire" mc="Standard.Class" uid="2d0ca7b6-1dba-42d3-910f-d1c9c4440c74"/>
+        <COMPID name="ExpressionGauche" mc="Standard.Class" uid="2d0ca7b6-1dba-42d3-910f-d1c9c4440c74"/>
         <COMPID name="ExpressionUnaire" mc="Standard.Class" uid="7a87a12a-99d7-4b03-b5fa-117560916515"/>
         <COMPID name="AppelDeModule" mc="Standard.Class" uid="a4cc6da7-aae5-4883-9ab6-3fc35f679499"/>
-        <COMPID name="ExpressionGauche" mc="Standard.Class" uid="127c3a96-7626-4cd4-9543-744799371496"/>
+        <COMPID name="ExpressionBinaire" mc="Standard.Class" uid="127c3a96-7626-4cd4-9543-744799371496"/>
         <COMPID name="ExpressionParenthesee" mc="Standard.Class" uid="1a44bc5a-5d3e-497a-b722-a4daf5c7fb6f"/>
         <COMPID name="Skip" mc="Standard.Class" uid="ea20c28e-8d37-44f6-9682-544ec9819bbe"/>
         <COMPID name="Conditionelle" mc="Standard.Class" uid="89c0cc70-1b3a-47ba-a8ac-d47fcdb95276"/>
@@ -47,6 +47,12 @@
         <COMPID name="Reaction" mc="Standard.Class" uid="5f1ea7a1-91c2-4cd5-8517-c1be62783629"/>
         <COMPID name="VariableGlobal" mc="Standard.Class" uid="4e01d501-ba63-446c-b900-12e973042c4b"/>
         <COMPID name="VariableLocal" mc="Standard.Class" uid="ec5b02f0-4c96-43b4-a190-8205ced4d182"/>
+        <COMPID name="OperateurBinaire" mc="Standard.Class" uid="f86f68e3-bb18-4f03-aa1c-9dce98776164"/>
+        <COMPID name="OperateurUnaire" mc="Standard.Class" uid="2203c117-c37d-407b-be86-9217bc2d23a4"/>
+        <COMPID name="Operateur" mc="Standard.Class" uid="b9400c64-ff3a-4ea5-b238-b0afeb6bedab"/>
+        <COMPID name="AffectationGauche" mc="Standard.Class" uid="76927ecd-424a-41a9-9ec4-fa714cd41f89"/>
+        <COMPID name="AffectationDroite" mc="Standard.Class" uid="7cd401cf-ae1f-42cf-af6d-dfdead57d894"/>
+        <COMPID name="Paramètre" mc="Standard.Class" uid="3b56a634-10df-49e9-82a2-d42a8ea33566"/>
         <COMPID name="TypePrimitif" mc="Standard.Class" uid="d830e53b-ce90-4759-b2a4-b5492b5569db"/>
         <COMPID name="Boolean" mc="Standard.Class" uid="41445070-4ce1-4474-982c-b2a45799d87e"/>
         <COMPID name="Entier" mc="Standard.Class" uid="16a1df52-aef5-4e6f-a6d9-80516362c32f"/>
@@ -55,12 +61,14 @@
         <COMPID name="Tableau" mc="Standard.Class" uid="2c424a81-e28a-4ac6-9714-e1b34c4b9a6d"/>
         <COMPID name="Énumération" mc="Standard.Class" uid="24acc2e5-1aa0-4af1-af43-1a76ccc49c8c"/>
         <COMPID name="Enregistrement" mc="Standard.Class" uid="e892966b-ad44-4fb6-a2fc-abf5380cf7fd"/>
-        <COMPID name="OperateurBinaire" mc="Standard.Class" uid="f86f68e3-bb18-4f03-aa1c-9dce98776164"/>
-        <COMPID name="OperateurUnaire" mc="Standard.Class" uid="2203c117-c37d-407b-be86-9217bc2d23a4"/>
-        <COMPID name="Operateur" mc="Standard.Class" uid="b9400c64-ff3a-4ea5-b238-b0afeb6bedab"/>
-        <COMPID name="AffectationGauche" mc="Standard.Class" uid="76927ecd-424a-41a9-9ec4-fa714cd41f89"/>
-        <COMPID name="AffectationDroite" mc="Standard.Class" uid="7cd401cf-ae1f-42cf-af6d-dfdead57d894"/>
-        <COMPID name="Parametres" mc="Standard.Class" uid="3b56a634-10df-49e9-82a2-d42a8ea33566"/>
+        <COMPID name="Valeur" mc="Standard.Class" uid="f67923dc-c977-4559-b5cc-a34f7683e3ff"/>
+        <COMPID name="Numérique" mc="Standard.Class" uid="531314d6-1999-4285-892f-72a78d5cc2f8"/>
+        <COMPID name="Case" mc="Standard.Class" uid="35cd4fa2-d337-4fcc-abbc-259c28c3c81d"/>
+        <COMPID name="Joueur" mc="Standard.Class" uid="dccd819c-4d00-4ef7-896c-fae5e59a4f46"/>
+        <COMPID name="Zombie" mc="Standard.Class" uid="20d688b2-e72c-4ac1-9eec-ff040a460979"/>
+        <COMPID name="Item" mc="Standard.Class" uid="755fcd67-12e6-4129-91be-967ff9c59a44"/>
+        <COMPID name="Action" mc="Standard.Class" uid="08a699a7-aa23-4091-8c93-1ff06dcce9ce"/>
+        <COMPID name="Changer" mc="Standard.Class" uid="0c81135d-7c20-45d0-a791-3a6b72f6d3bd"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="StrategiesDeJeu" mc="Standard.ClassDiagram" uid="60ede6b9-f8d2-4c2c-9ab8-64d876b951a1"/>
