@@ -67,7 +67,7 @@
       </COMP>
       <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="rencontre" mc="Standard.AssociationEnd" uid="e5057bd9-debe-4287-be36-fa5256b94f8b"/>
+          <ID name="" mc="Standard.AssociationEnd" uid="e5057bd9-debe-4287-be36-fa5256b94f8b"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -80,7 +80,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[rencontre]]></ATT>
+            <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -91,7 +91,7 @@
             </COMP>
             <COMP relation="Association">
               <REFOBJ>
-                <ID name="est composé" mc="Standard.Association" uid="1a32cf80-1c99-4d7b-bc56-0f4fb73a6845"/>
+                <ID name="" mc="Standard.Association" uid="1a32cf80-1c99-4d7b-bc56-0f4fb73a6845"/>
               </REFOBJ>
             </COMP>
           </DEPENDENCIES>

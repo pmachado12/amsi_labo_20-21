@@ -17,7 +17,7 @@
         <COMPID name="Joueur" mc="Standard.Class" uid="e97c6145-af6b-4f6c-849a-5ec45abd77a7"/>
         <COMPID name="Jeu" mc="Standard.Class" uid="cd3997f0-a27f-4f67-8e8a-848af6256043"/>
         <COMPID name="Avatar" mc="Standard.Class" uid="bc682c22-8919-400e-b5e6-e2a7da937fbd"/>
-        <COMPID name="Monde" mc="Standard.Class" uid="bead764f-f4b8-47b5-ad79-92928833a317"/>
+        <COMPID name="PlateauDeJeu" mc="Standard.Class" uid="bead764f-f4b8-47b5-ad79-92928833a317"/>
         <COMPID name="Match" mc="Standard.Class" uid="5106a048-9edf-4b2e-aa24-718f43daa640"/>
         <COMPID name="Rencontre" mc="Standard.Class" uid="a580874f-b305-411b-8601-79442a0c31cf"/>
         <COMPID name="Zombie" mc="Standard.Class" uid="325abd62-3d33-4162-95a9-fbdbfafcf3b4"/>
@@ -127,6 +127,8 @@
           </DEPENDENCIES>
         </OBJECT>
         <COMPID name="Brouillard" mc="Standard.Class" uid="b39398b2-99a3-43ce-8355-dd858194650c"/>
+        <COMPID name="Chonometre" mc="Standard.Class" uid="3312a672-c188-4bd6-b0f8-c98420ffd9c4"/>
+        <COMPID name="CompteurTour" mc="Standard.Class" uid="863f35f0-01fd-4828-9228-422fa7bc6df5"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="PlateauxDeJeuDC" mc="Standard.ClassDiagram" uid="3552e2c9-c4c6-4a33-b33a-28c913268f79"/>

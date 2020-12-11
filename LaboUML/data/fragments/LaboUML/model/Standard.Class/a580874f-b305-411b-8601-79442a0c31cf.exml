@@ -36,14 +36,14 @@
           <DEPENDENCIES>
             <COMP relation="Opposite">
               <REFOBJ>
-                <ID name="rencontre" mc="Standard.AssociationEnd" uid="e5057bd9-debe-4287-be36-fa5256b94f8b"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="e5057bd9-debe-4287-be36-fa5256b94f8b"/>
               </REFOBJ>
             </COMP>
             <COMP relation="Association">
               <OBJECT>
-                <ID name="est composé" mc="Standard.Association" uid="1a32cf80-1c99-4d7b-bc56-0f4fb73a6845"/>
+                <ID name="" mc="Standard.Association" uid="1a32cf80-1c99-4d7b-bc56-0f4fb73a6845"/>
                 <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[est composé]]></ATT>
+                  <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES></DEPENDENCIES>
@@ -51,6 +51,9 @@
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
+        <REFOBJ>
+          <ID name="vainqueur" mc="Standard.AssociationEnd" uid="76066f0f-b639-4f30-8802-811a2d7f4978"/>
+        </REFOBJ>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
