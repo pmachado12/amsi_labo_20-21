@@ -107,7 +107,7 @@
       </COMP>
       <COMP relation="OwnedEnd">
         <REFOBJ>
-          <ID name="jeu" mc="Standard.AssociationEnd" uid="e3426dac-6532-41ca-89b4-43d705473563"/>
+          <ID name="" mc="Standard.AssociationEnd" uid="e3426dac-6532-41ca-89b4-43d705473563"/>
         </REFOBJ>
         <OBJECT>
           <ID name="mode" mc="Standard.AssociationEnd" uid="02c70998-645f-42eb-b415-979fd132c703"/>
@@ -186,7 +186,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Joueur" mc="Standard.Class" uid="e97c6145-af6b-4f6c-849a-5ec45abd77a7"/>
+              <ID name="Avatar" mc="Standard.Class" uid="bc682c22-8919-400e-b5e6-e2a7da937fbd"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
@@ -282,6 +282,9 @@
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
+        <REFOBJ>
+          <ID name="vainqueur" mc="Standard.AssociationEnd" uid="23c8090c-d95e-4aa9-bd17-f7d6308af983"/>
+        </REFOBJ>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

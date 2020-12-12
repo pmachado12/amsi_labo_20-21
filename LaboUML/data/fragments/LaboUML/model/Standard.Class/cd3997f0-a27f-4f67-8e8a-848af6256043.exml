@@ -22,7 +22,7 @@
         <OBJECT>
           <ID name="match" mc="Standard.AssociationEnd" uid="3b5f768f-001d-45ce-9474-2a9aced7e851"/>
           <ATTRIBUTES>
-            <ATT name="Aggregation">KindIsAssociation</ATT>
+            <ATT name="Aggregation">KindIsComposition</ATT>
             <ATT name="IsChangeable">true</ATT>
             <ATT name="Changeable">ReadWrite</ATT>
             <ATT name="IsDerived">false</ATT>
@@ -39,7 +39,7 @@
           <DEPENDENCIES>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="jeu" mc="Standard.AssociationEnd" uid="e3426dac-6532-41ca-89b4-43d705473563"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="e3426dac-6532-41ca-89b4-43d705473563"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -52,7 +52,7 @@
                   <ATT name="Visibility">Public</ATT>
                   <ATT name="IsClass">false</ATT>
                   <ATT name="IsAbstract">false</ATT>
-                  <ATT name="Name"><![CDATA[jeu]]></ATT>
+                  <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -61,9 +61,9 @@
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="possède" mc="Standard.Association" uid="39272586-b6d2-4441-a1e4-36afb757dadd"/>
+                      <ID name="" mc="Standard.Association" uid="39272586-b6d2-4441-a1e4-36afb757dadd"/>
                       <ATTRIBUTES>
-                        <ATT name="Name"><![CDATA[possède]]></ATT>
+                        <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES></DEPENDENCIES>
@@ -73,7 +73,7 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="possède" mc="Standard.Association" uid="39272586-b6d2-4441-a1e4-36afb757dadd"/>
+              <COMPID name="" mc="Standard.Association" uid="39272586-b6d2-4441-a1e4-36afb757dadd"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
