@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="MetaRegle" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="MétaRégle" version="4">
   <OBJECT>
-    <ID name="MetaRegle" mc="Standard.Class" uid="55bdc600-4e1c-4804-8d8b-ab06ba88dc78"/>
+    <ID name="MétaRégle" mc="Standard.Class" uid="55bdc600-4e1c-4804-8d8b-ab06ba88dc78"/>
     <PID name="StrategiesDeJeu" mc="Standard.Package" uid="c144b141-e88f-4540-8a71-427ef1a225e1"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,13 +11,16 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[MetaRegle]]></ATT>
+      <ATT name="Name"><![CDATA[MétaRégle]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedEnd">
         <REFOBJ>
-          <ID name="changer" mc="Standard.AssociationEnd" uid="6e8e3c6d-2ce7-421b-b80e-9f7e631bb5ca"/>
+          <ID name="actionsARealiser" mc="Standard.AssociationEnd" uid="75bc07f7-7311-4f02-a8c2-e1ed4e12b0be"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="vision" mc="Standard.AssociationEnd" uid="76335d73-47b6-4375-ade2-48613aad0e57"/>
         </REFOBJ>
       </COMP>
       <COMP relation="Parent">

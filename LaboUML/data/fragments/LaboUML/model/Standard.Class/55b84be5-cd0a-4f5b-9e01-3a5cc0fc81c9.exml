@@ -16,9 +16,6 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedEnd">
-        <REFOBJ>
-          <ID name="expression" mc="Standard.AssociationEnd" uid="620d2921-3161-4064-9882-099ad62abbb8"/>
-        </REFOBJ>
         <OBJECT>
           <ID name="" mc="Standard.AssociationEnd" uid="5d052865-cc01-44fe-87a7-1d113441956a"/>
           <ATTRIBUTES>
@@ -77,6 +74,9 @@
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
+        <REFOBJ>
+          <ID name="expression" mc="Standard.AssociationEnd" uid="68907719-cc68-4b24-a55e-372400127bb7"/>
+        </REFOBJ>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

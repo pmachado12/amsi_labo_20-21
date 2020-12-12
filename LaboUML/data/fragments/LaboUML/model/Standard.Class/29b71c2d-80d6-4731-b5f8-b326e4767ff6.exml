@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Declancheur" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Déclancheur" version="4">
   <OBJECT>
-    <ID name="Declancheur" mc="Standard.Class" uid="29b71c2d-80d6-4731-b5f8-b326e4767ff6"/>
+    <ID name="Déclancheur" mc="Standard.Class" uid="29b71c2d-80d6-4731-b5f8-b326e4767ff6"/>
     <PID name="StrategiesDeJeu" mc="Standard.Package" uid="c144b141-e88f-4540-8a71-427ef1a225e1"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Declancheur]]></ATT>
+      <ATT name="Name"><![CDATA[Déclancheur]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>

@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CollecterMax" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Changer" version="4">
   <OBJECT>
-    <ID name="CollecterMax" mc="Standard.Class" uid="b0fc8c77-5229-447d-b8f1-a8e796031da9"/>
+    <ID name="Changer" mc="Standard.Class" uid="6f91202b-caa9-4523-94c4-228047d211e8"/>
     <PID name="StrategiesDeJeu" mc="Standard.Package" uid="c144b141-e88f-4540-8a71-427ef1a225e1"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,13 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[CollecterMax]]></ATT>
+      <ATT name="Name"><![CDATA[Changer]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedOperation">
         <OBJECT>
-          <ID name="Constructor" mc="Standard.Operation" uid="359fde82-a149-4771-a1d5-b6d7813197fe"/>
+          <ID name="Constructor" mc="Standard.Operation" uid="275c46a7-655f-45a9-93af-79256118a00c"/>
           <ATTRIBUTES>
             <ATT name="Concurrency">false</ATT>
             <ATT name="Final">false</ATT>
@@ -31,7 +31,7 @@
           <DEPENDENCIES>
             <COMP relation="IO">
               <OBJECT>
-                <ID name="p1" mc="Standard.Parameter" uid="238c9ce0-5641-4784-81c4-a118f451441a"/>
+                <ID name="p1" mc="Standard.Parameter" uid="f5e70271-ee31-46dc-8604-3792c7417bb0"/>
                 <ATTRIBUTES>
                   <ATT name="ParameterPassing">In</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
@@ -48,7 +48,7 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <LINK relation="Type">
-                    <ID name="Item" mc="Standard.Class" uid="ca2f79cc-4092-44d7-951e-78f5e5c92da2"/>
+                    <ID name="Vision" mc="Standard.Class" uid="756b8b50-a717-4e66-9c5b-5b8c1c6c21a7"/>
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>
@@ -61,7 +61,7 @@
       </COMP>
       <COMP relation="Parent">
         <OBJECT>
-          <ID name="Generalization" mc="Standard.Generalization" uid="88894ebe-77f2-4e4a-bb1f-677fbc05333f"/>
+          <ID name="Generalization" mc="Standard.Generalization" uid="ca98d2d6-62b5-470b-8842-94346a44b7be"/>
           <ATTRIBUTES>
             <ATT name="Discriminator"></ATT>
             <ATT name="Name"><![CDATA[Generalization]]></ATT>
@@ -69,24 +69,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="SuperType">
-              <ID name="Objectif" mc="Standard.Class" uid="33d938ff-6455-41af-8c57-7865b0db0fbc"/>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-      </COMP>
-      <COMP relation="Descriptor">
-        <OBJECT>
-          <ID name="Note" mc="Infrastructure.Note" uid="937d6334-a6d2-436c-8391-f43621b31f1c"/>
-          <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[Item utilisé depuis PlateauxDeJeuDC
-]]></ATT>
-            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
-            <ATT name="Name"><![CDATA[Note]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Model">
-              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+              <ID name="ActionARéaliser" mc="Standard.Class" uid="6a49c1f7-16cf-4e6b-a231-e7b3a5a4921a"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>

@@ -75,7 +75,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <REFOBJ>
-          <ID name="typePrimitif" mc="Standard.AssociationEnd" uid="9103c302-3a3c-46f5-ad30-0ba8ba128248"/>
+          <ID name="déclaration" mc="Standard.AssociationEnd" uid="9107b8b0-ceda-4493-80a5-487e15f9607c"/>
         </REFOBJ>
       </COMP>
     </DEPENDENCIES>

@@ -20,10 +20,10 @@
           <ID name="" mc="Standard.AssociationEnd" uid="ed9fb7d8-e740-4151-9c3a-7201bf7a3a26"/>
         </REFOBJ>
         <REFOBJ>
-          <ID name="regle" mc="Standard.AssociationEnd" uid="516bb995-7401-4332-a934-1cded9de6c5f"/>
+          <ID name="variableGlobal" mc="Standard.AssociationEnd" uid="c9d5cf3a-9662-4062-affb-fa6862c550b9"/>
         </REFOBJ>
         <REFOBJ>
-          <ID name="variableGlobal" mc="Standard.AssociationEnd" uid="c9d5cf3a-9662-4062-affb-fa6862c550b9"/>
+          <ID name="regle" mc="Standard.AssociationEnd" uid="516bb995-7401-4332-a934-1cded9de6c5f"/>
         </REFOBJ>
       </COMP>
     </DEPENDENCIES>

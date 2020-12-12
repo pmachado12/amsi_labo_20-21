@@ -61,9 +61,9 @@
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="contient" mc="Standard.Association" uid="e317f868-659b-4c43-bf0c-b52c11cc9acb"/>
+                      <ID name="invoque" mc="Standard.Association" uid="e317f868-659b-4c43-bf0c-b52c11cc9acb"/>
                       <ATTRIBUTES>
-                        <ATT name="Name"><![CDATA[contient]]></ATT>
+                        <ATT name="Name"><![CDATA[invoque]]></ATT>
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES></DEPENDENCIES>
@@ -73,7 +73,7 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="contient" mc="Standard.Association" uid="e317f868-659b-4c43-bf0c-b52c11cc9acb"/>
+              <COMPID name="invoque" mc="Standard.Association" uid="e317f868-659b-4c43-bf0c-b52c11cc9acb"/>
             </COMP>
             <COMP relation="Descriptor">
               <OBJECT>

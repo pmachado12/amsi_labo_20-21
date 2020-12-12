@@ -107,10 +107,10 @@
           </DEPENDENCIES>
         </OBJECT>
         <REFOBJ>
-          <ID name="numérique" mc="Standard.AssociationEnd" uid="ddb36cc0-ce6f-4e22-9a58-bea3d3547069"/>
+          <ID name="type" mc="Standard.AssociationEnd" uid="c043fad5-8a16-4971-8085-1543cecdec1b"/>
         </REFOBJ>
         <REFOBJ>
-          <ID name="boolean" mc="Standard.AssociationEnd" uid="ec10c4ed-7ae7-41c8-8592-a569c8e6249a"/>
+          <ID name="boolean" mc="Standard.AssociationEnd" uid="5002cd94-f2ec-493b-ac35-68536f89855d"/>
         </REFOBJ>
       </COMP>
       <COMP relation="Parent">

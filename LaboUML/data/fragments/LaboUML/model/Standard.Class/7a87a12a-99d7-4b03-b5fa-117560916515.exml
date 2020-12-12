@@ -81,85 +81,11 @@
           <ID name="operateurUnaire" mc="Standard.AssociationEnd" uid="9e1c88c5-8b63-422b-ba11-66f496cbad88"/>
         </REFOBJ>
         <REFOBJ>
-          <ID name="boolean" mc="Standard.AssociationEnd" uid="1ec8ec89-6d6e-49b7-b167-ab31e94edeba"/>
+          <ID name="réel" mc="Standard.AssociationEnd" uid="bf16c682-fdf7-4424-8eef-ec13d0138854"/>
         </REFOBJ>
-        <OBJECT>
-          <ID name="réel" mc="Standard.AssociationEnd" uid="82ab0c11-352e-49d0-ad69-562b1d36352b"/>
-          <ATTRIBUTES>
-            <ATT name="Aggregation">KindIsAggregation</ATT>
-            <ATT name="IsChangeable">true</ATT>
-            <ATT name="Changeable">ReadWrite</ATT>
-            <ATT name="IsDerived">false</ATT>
-            <ATT name="IsOrdered">false</ATT>
-            <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-            <ATT name="Visibility">Public</ATT>
-            <ATT name="IsClass">false</ATT>
-            <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[réel]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Target">
-              <ID name="Réel" mc="Standard.Class" uid="caf819ea-bff4-4540-acd3-2dc42bae809a"/>
-            </LINK>
-            <COMP relation="Opposite">
-              <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="1ea555c4-c838-4810-8cd5-5fe7d494c54b"/>
-                <ATTRIBUTES>
-                  <ATT name="Aggregation">KindIsAssociation</ATT>
-                  <ATT name="IsChangeable">true</ATT>
-                  <ATT name="Changeable">ReadWrite</ATT>
-                  <ATT name="IsDerived">false</ATT>
-                  <ATT name="IsOrdered">false</ATT>
-                  <ATT name="IsUnique">false</ATT>
-                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
-                  <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
-                  <ATT name="Visibility">Public</ATT>
-                  <ATT name="IsClass">false</ATT>
-                  <ATT name="IsAbstract">false</ATT>
-                  <ATT name="Name"></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <COMP relation="Opposite">
-                    <COMPID name="réel" mc="Standard.AssociationEnd" uid="82ab0c11-352e-49d0-ad69-562b1d36352b"/>
-                  </COMP>
-                  <COMP relation="Association">
-                    <OBJECT>
-                      <ID name="constitué de" mc="Standard.Association" uid="613ac488-de5b-4b32-aae6-7a73641c7463"/>
-                      <ATTRIBUTES>
-                        <ATT name="Name"><![CDATA[constitué de]]></ATT>
-                        <ATT name="status">1970354901745664</ATT>
-                      </ATTRIBUTES>
-                      <DEPENDENCIES></DEPENDENCIES>
-                    </OBJECT>
-                  </COMP>
-                </DEPENDENCIES>
-              </OBJECT>
-            </COMP>
-            <COMP relation="Association">
-              <COMPID name="constitué de" mc="Standard.Association" uid="613ac488-de5b-4b32-aae6-7a73641c7463"/>
-            </COMP>
-            <COMP relation="Descriptor">
-              <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="bd985a41-2d3c-4bc2-a8c0-7db7102d54ce"/>
-                <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[<Enter note text here>]]></ATT>
-                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
-                  <ATT name="Name"></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="Model">
-                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-            </COMP>
-          </DEPENDENCIES>
-        </OBJECT>
+        <REFOBJ>
+          <ID name="boolean" mc="Standard.AssociationEnd" uid="085c3bf4-295b-4559-b569-30287a8ce72f"/>
+        </REFOBJ>
       </COMP>
       <COMP relation="Parent">
         <OBJECT>

@@ -36,7 +36,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Type">
-              <FOREIGNID name="boolean" mc="Standard.DataType" uid="00000004-0000-0005-0000-000000000000"/>
+              <ID name="Boolean" mc="Standard.Class" uid="41445070-4ce1-4474-982c-b2a45799d87e"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>

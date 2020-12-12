@@ -28,7 +28,7 @@
         <COMPID name="CollecterMax" mc="Standard.Class" uid="b0fc8c77-5229-447d-b8f1-a8e796031da9"/>
         <COMPID name="Combattre" mc="Standard.Class" uid="f3f6259f-ae54-44cf-a341-a4fe45854f3b"/>
         <COMPID name="RegleNormal" mc="Standard.Class" uid="0efdf4bc-1978-4e86-aef4-ee11a3fa7ca1"/>
-        <COMPID name="MetaRegle" mc="Standard.Class" uid="55bdc600-4e1c-4804-8d8b-ab06ba88dc78"/>
+        <COMPID name="MétaRégle" mc="Standard.Class" uid="55bdc600-4e1c-4804-8d8b-ab06ba88dc78"/>
         <COMPID name="Expression" mc="Standard.Class" uid="8284b112-78ec-4f56-80a4-e7c513bb92ed"/>
         <COMPID name="Literal" mc="Standard.Class" uid="6221ffab-34ea-4b3e-b414-2e2be1d21c82"/>
         <COMPID name="ExpressionGauche" mc="Standard.Class" uid="2d0ca7b6-1dba-42d3-910f-d1c9c4440c74"/>
@@ -40,11 +40,11 @@
         <COMPID name="Conditionelle" mc="Standard.Class" uid="89c0cc70-1b3a-47ba-a8ac-d47fcdb95276"/>
         <COMPID name="Iteration" mc="Standard.Class" uid="157dd909-a44c-4d1d-ae66-e7d97ba00b03"/>
         <COMPID name="Affectation" mc="Standard.Class" uid="2b4c3238-7785-432f-b966-67e78316e11e"/>
-        <COMPID name="Action" mc="Standard.Class" uid="4bb820b0-8da2-4a3f-885e-586674f6edc9"/>
+        <COMPID name="InstrutionAction" mc="Standard.Class" uid="4bb820b0-8da2-4a3f-885e-586674f6edc9"/>
         <COMPID name="Variable" mc="Standard.Class" uid="9da21922-1e2f-45c7-b230-5449d2baec71"/>
         <COMPID name="Module" mc="Standard.Class" uid="bdd6397b-9008-44ff-b58e-14d9e7b968cf"/>
-        <COMPID name="Declancheur" mc="Standard.Class" uid="29b71c2d-80d6-4731-b5f8-b326e4767ff6"/>
-        <COMPID name="Reaction" mc="Standard.Class" uid="5f1ea7a1-91c2-4cd5-8517-c1be62783629"/>
+        <COMPID name="Déclancheur" mc="Standard.Class" uid="29b71c2d-80d6-4731-b5f8-b326e4767ff6"/>
+        <COMPID name="Réaction" mc="Standard.Class" uid="5f1ea7a1-91c2-4cd5-8517-c1be62783629"/>
         <COMPID name="VariableGlobal" mc="Standard.Class" uid="4e01d501-ba63-446c-b900-12e973042c4b"/>
         <COMPID name="VariableLocal" mc="Standard.Class" uid="ec5b02f0-4c96-43b4-a190-8205ced4d182"/>
         <COMPID name="OperateurBinaire" mc="Standard.Class" uid="f86f68e3-bb18-4f03-aa1c-9dce98776164"/>
@@ -62,13 +62,14 @@
         <COMPID name="Énumération" mc="Standard.Class" uid="24acc2e5-1aa0-4af1-af43-1a76ccc49c8c"/>
         <COMPID name="Enregistrement" mc="Standard.Class" uid="e892966b-ad44-4fb6-a2fc-abf5380cf7fd"/>
         <COMPID name="Valeur" mc="Standard.Class" uid="f67923dc-c977-4559-b5cc-a34f7683e3ff"/>
-        <COMPID name="Numérique" mc="Standard.Class" uid="531314d6-1999-4285-892f-72a78d5cc2f8"/>
-        <COMPID name="Case" mc="Standard.Class" uid="35cd4fa2-d337-4fcc-abbc-259c28c3c81d"/>
-        <COMPID name="Joueur" mc="Standard.Class" uid="dccd819c-4d00-4ef7-896c-fae5e59a4f46"/>
-        <COMPID name="Zombie" mc="Standard.Class" uid="20d688b2-e72c-4ac1-9eec-ff040a460979"/>
-        <COMPID name="Item" mc="Standard.Class" uid="755fcd67-12e6-4129-91be-967ff9c59a44"/>
-        <COMPID name="Action" mc="Standard.Class" uid="08a699a7-aa23-4091-8c93-1ff06dcce9ce"/>
-        <COMPID name="Changer" mc="Standard.Class" uid="0c81135d-7c20-45d0-a791-3a6b72f6d3bd"/>
+        <COMPID name="Type" mc="Standard.Class" uid="072ae38d-74d7-41b7-aa81-e21cb87d4002"/>
+        <COMPID name="Déclaration" mc="Standard.Class" uid="5357da53-2fde-4cf4-822a-2de197af6237"/>
+        <COMPID name="PlateauDeJeu" mc="Standard.Class" uid="cbe18f74-1651-4170-b5bb-4be3a65998f5"/>
+        <COMPID name="ActionARéaliser" mc="Standard.Class" uid="6a49c1f7-16cf-4e6b-a231-e7b3a5a4921a"/>
+        <COMPID name="Action" mc="Standard.Class" uid="5cf20943-0a37-4bcb-be3b-64f0e564be84"/>
+        <COMPID name="Changer" mc="Standard.Class" uid="6f91202b-caa9-4523-94c4-228047d211e8"/>
+        <COMPID name="Champ" mc="Standard.Class" uid="7de6072b-f404-4b37-84cd-8d4405104e52"/>
+        <COMPID name="Numérique" mc="Standard.Class" uid="aa0be1b4-52fc-4769-8ce4-98ba51d1a234"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="StrategiesDeJeu" mc="Standard.ClassDiagram" uid="60ede6b9-f8d2-4c2c-9ab8-64d876b951a1"/>
