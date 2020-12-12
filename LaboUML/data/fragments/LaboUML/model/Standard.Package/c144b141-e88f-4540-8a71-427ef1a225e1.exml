@@ -73,6 +73,7 @@
         <COMPID name="Case" mc="Standard.Class" uid="a37dd59d-8c38-4d0b-94de-0e9b1f08d88b"/>
         <COMPID name="Item" mc="Standard.Class" uid="da3fca21-1959-4170-8e21-32760068e22e"/>
         <COMPID name="Champ" mc="Standard.Class" uid="d52fdb9f-c080-4896-a501-7d558b93c3b9"/>
+        <COMPID name="Garde" mc="Standard.Class" uid="e7deec8f-993e-454b-834f-b18fdaa78dd6"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="StrategiesDeJeu" mc="Standard.ClassDiagram" uid="60ede6b9-f8d2-4c2c-9ab8-64d876b951a1"/>

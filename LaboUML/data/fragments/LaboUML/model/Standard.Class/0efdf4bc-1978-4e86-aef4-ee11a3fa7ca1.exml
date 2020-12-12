@@ -111,7 +111,7 @@
           <ID name="invariant" mc="Standard.Constraint" uid="b3bdf6aa-bbbd-4df5-9ca4-26631cb46fa5"/>
           <ATTRIBUTES>
             <ATT name="BaseClass"></ATT>
-            <ATT name="Body"><![CDATA[context RegleNormal inv PasDeChange: self.actions.allInstances()->collect(a : Action | a.oclIsTypeOf(Change))->count() = 0]]></ATT>
+            <ATT name="Body"><![CDATA[context RegleNormal inv PasDeChange: self.action.allInstances()->collect(a : Action | a.oclIsTypeOf(Change))->count() = 0]]></ATT>
             <ATT name="Language"></ATT>
             <ATT name="Name"><![CDATA[invariant]]></ATT>
             <ATT name="status">1970354901745664</ATT>

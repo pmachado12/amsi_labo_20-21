@@ -17,7 +17,7 @@
     <DEPENDENCIES>
       <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="" mc="Standard.AssociationEnd" uid="9ad87068-51f3-41bc-9444-0f750902dc79"/>
+          <ID name="" mc="Standard.AssociationEnd" uid="338322a1-bb30-4e30-a376-4056b3e2f61c"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -25,7 +25,7 @@
             <ATT name="IsDerived">false</ATT>
             <ATT name="IsOrdered">false</ATT>
             <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
             <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
@@ -36,7 +36,7 @@
           <DEPENDENCIES>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="action" mc="Standard.AssociationEnd" uid="ff45a909-957e-431c-b4bb-f0fa6117c105"/>
+                <ID name="action" mc="Standard.AssociationEnd" uid="c8be0246-150d-400d-9bd8-d3d7805a9ea4"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAggregation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -44,7 +44,7 @@
                   <ATT name="IsDerived">false</ATT>
                   <ATT name="IsOrdered">false</ATT>
                   <ATT name="IsUnique">false</ATT>
-                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
                   <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
                   <ATT name="Visibility">Public</ATT>
                   <ATT name="IsClass">false</ATT>
@@ -54,13 +54,13 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="" mc="Standard.AssociationEnd" uid="9ad87068-51f3-41bc-9444-0f750902dc79"/>
+                    <COMPID name="" mc="Standard.AssociationEnd" uid="338322a1-bb30-4e30-a376-4056b3e2f61c"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="possède" mc="Standard.Association" uid="116ba9d5-1f3f-4c1f-99f0-de65f6a712c7"/>
+                      <ID name="utilise" mc="Standard.Association" uid="6410ceae-c3d9-4235-9edc-5b8b6c837437"/>
                       <ATTRIBUTES>
-                        <ATT name="Name"><![CDATA[possède]]></ATT>
+                        <ATT name="Name"><![CDATA[utilise]]></ATT>
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES></DEPENDENCIES>
@@ -70,7 +70,7 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="possède" mc="Standard.Association" uid="116ba9d5-1f3f-4c1f-99f0-de65f6a712c7"/>
+              <COMPID name="utilise" mc="Standard.Association" uid="6410ceae-c3d9-4235-9edc-5b8b6c837437"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>

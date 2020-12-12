@@ -93,16 +93,13 @@
         <REFOBJ>
           <ID name="instruction" mc="Standard.AssociationEnd" uid="c575ff6d-4f0c-42ec-a75f-f46183909940"/>
         </REFOBJ>
-        <REFOBJ>
-          <ID name="action" mc="Standard.AssociationEnd" uid="ff45a909-957e-431c-b4bb-f0fa6117c105"/>
-        </REFOBJ>
       </COMP>
       <COMP relation="ConstraintDefinition">
         <OBJECT>
           <ID name="invariant" mc="Standard.Constraint" uid="93592966-bc36-4dce-893c-5d61b048d52b"/>
           <ATTRIBUTES>
             <ATT name="BaseClass"></ATT>
-            <ATT name="Body"><![CDATA[context Réaction inv UnMouvement  : self.actions.allInstances()->collect(a : Action | a.oclIsTypeOf(SeDéplacer))->count() = 1]]></ATT>
+            <ATT name="Body"><![CDATA[context Réaction inv UnMouvement  : self.instruction.action.allInstances()->collect(a : Action | a.oclIsTypeOf(SeDéplacer))->count() = 1]]></ATT>
             <ATT name="Language"></ATT>
             <ATT name="Name"><![CDATA[invariant]]></ATT>
             <ATT name="status">1970354901745664</ATT>
