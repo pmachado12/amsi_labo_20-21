@@ -148,7 +148,7 @@
             </COMP>
             <COMP relation="ConstraintDefinition">
               <REFOBJ>
-                <ID name="XOR" mc="Standard.Constraint" uid="003d6c61-bec1-4004-93b5-a330a692541e"/>
+                <ID name="XOR" mc="Standard.Constraint" uid="fae6c225-e937-4c26-b481-6f44482d663f"/>
               </REFOBJ>
             </COMP>
             <COMP relation="Descriptor">

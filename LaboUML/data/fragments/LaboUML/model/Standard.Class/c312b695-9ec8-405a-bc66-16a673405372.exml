@@ -58,9 +58,9 @@
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="definie" mc="Standard.Association" uid="c82b5be3-3ca7-40f7-b828-bbffb625adc8"/>
+                      <ID name="attributé" mc="Standard.Association" uid="c82b5be3-3ca7-40f7-b828-bbffb625adc8"/>
                       <ATTRIBUTES>
-                        <ATT name="Name"><![CDATA[definie]]></ATT>
+                        <ATT name="Name"><![CDATA[attributé]]></ATT>
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES></DEPENDENCIES>
@@ -70,7 +70,7 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="definie" mc="Standard.Association" uid="c82b5be3-3ca7-40f7-b828-bbffb625adc8"/>
+              <COMPID name="attributé" mc="Standard.Association" uid="c82b5be3-3ca7-40f7-b828-bbffb625adc8"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>

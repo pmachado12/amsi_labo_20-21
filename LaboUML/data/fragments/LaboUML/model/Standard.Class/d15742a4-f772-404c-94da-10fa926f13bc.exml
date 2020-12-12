@@ -140,11 +140,6 @@
                       <DEPENDENCIES></DEPENDENCIES>
                     </OBJECT>
                   </COMP>
-                  <COMP relation="ConstraintDefinition">
-                    <REFOBJ>
-                      <ID name="XOR" mc="Standard.Constraint" uid="003d6c61-bec1-4004-93b5-a330a692541e"/>
-                    </REFOBJ>
-                  </COMP>
                 </DEPENDENCIES>
               </OBJECT>
             </COMP>

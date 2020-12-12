@@ -34,9 +34,6 @@
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
-            <LINK relation="Target">
-              <ID name="Module" mc="Standard.Class" uid="bdd6397b-9008-44ff-b58e-14d9e7b968cf"/>
-            </LINK>
             <COMP relation="Opposite">
               <REFOBJ>
                 <ID name="" mc="Standard.AssociationEnd" uid="69b852d0-64d5-4416-9dad-e241b87d55e3"/>
