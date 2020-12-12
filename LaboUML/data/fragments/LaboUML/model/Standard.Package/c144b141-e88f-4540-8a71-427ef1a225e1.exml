@@ -65,11 +65,14 @@
         <COMPID name="Type" mc="Standard.Class" uid="072ae38d-74d7-41b7-aa81-e21cb87d4002"/>
         <COMPID name="Déclaration" mc="Standard.Class" uid="5357da53-2fde-4cf4-822a-2de197af6237"/>
         <COMPID name="PlateauDeJeu" mc="Standard.Class" uid="cbe18f74-1651-4170-b5bb-4be3a65998f5"/>
-        <COMPID name="ActionARéaliser" mc="Standard.Class" uid="6a49c1f7-16cf-4e6b-a231-e7b3a5a4921a"/>
         <COMPID name="Action" mc="Standard.Class" uid="5cf20943-0a37-4bcb-be3b-64f0e564be84"/>
         <COMPID name="Changer" mc="Standard.Class" uid="6f91202b-caa9-4523-94c4-228047d211e8"/>
-        <COMPID name="Champ" mc="Standard.Class" uid="7de6072b-f404-4b37-84cd-8d4405104e52"/>
         <COMPID name="Numérique" mc="Standard.Class" uid="aa0be1b4-52fc-4769-8ce4-98ba51d1a234"/>
+        <COMPID name="Joueur" mc="Standard.Class" uid="0cc3ef81-e796-46e0-9b81-17fec2b7c6ab"/>
+        <COMPID name="Zombie" mc="Standard.Class" uid="b2189d86-f55f-46ac-bc5e-644b19893c93"/>
+        <COMPID name="Case" mc="Standard.Class" uid="a37dd59d-8c38-4d0b-94de-0e9b1f08d88b"/>
+        <COMPID name="Item" mc="Standard.Class" uid="da3fca21-1959-4170-8e21-32760068e22e"/>
+        <COMPID name="Champ" mc="Standard.Class" uid="d52fdb9f-c080-4896-a501-7d558b93c3b9"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="StrategiesDeJeu" mc="Standard.ClassDiagram" uid="60ede6b9-f8d2-4c2c-9ab8-64d876b951a1"/>

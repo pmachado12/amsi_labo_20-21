@@ -90,9 +90,6 @@
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
-        <REFOBJ>
-          <ID name="" mc="Standard.AssociationEnd" uid="f0feda27-5325-456c-b6a3-c67c4d23ef6f"/>
-        </REFOBJ>
         <OBJECT>
           <ID name="" mc="Standard.AssociationEnd" uid="342d6e2a-852e-4adb-81db-26220c71259e"/>
           <ATTRIBUTES>

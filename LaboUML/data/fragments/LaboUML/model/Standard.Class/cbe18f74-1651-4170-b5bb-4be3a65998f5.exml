@@ -19,7 +19,7 @@
         <OBJECT>
           <ID name="Note" mc="Infrastructure.Note" uid="479bedad-f084-4ecc-9cd0-fd4a0a69e3f7"/>
           <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[Uilises differents éléments de PlateauxDeJeuDC]]></ATT>
+            <ATT name="Content"><![CDATA[Utilisé depuis PlateuxDeJeuDC]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
             <ATT name="Name"><![CDATA[Note]]></ATT>
             <ATT name="status">1970354901745664</ATT>

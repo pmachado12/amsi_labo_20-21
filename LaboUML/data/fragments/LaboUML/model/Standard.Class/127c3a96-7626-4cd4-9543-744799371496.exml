@@ -16,8 +16,14 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedEnd">
+        <REFOBJ>
+          <ID name="type" mc="Standard.AssociationEnd" uid="c043fad5-8a16-4971-8085-1543cecdec1b"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="boolean" mc="Standard.AssociationEnd" uid="5002cd94-f2ec-493b-ac35-68536f89855d"/>
+        </REFOBJ>
         <OBJECT>
-          <ID name="expression" mc="Standard.AssociationEnd" uid="2c7c3483-32de-4313-85bd-0546706deed0"/>
+          <ID name="expressionBinaire" mc="Standard.AssociationEnd" uid="68838b3f-043e-47f2-9e23-633852f6f185"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAggregation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -30,13 +36,13 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[expression]]></ATT>
+            <ATT name="Name"><![CDATA[expressionBinaire]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="f0feda27-5325-456c-b6a3-c67c4d23ef6f"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="b7a2afad-7a6d-4f91-9ac1-1f8a51632b33"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -44,7 +50,7 @@
                   <ATT name="IsDerived">false</ATT>
                   <ATT name="IsOrdered">false</ATT>
                   <ATT name="IsUnique">false</ATT>
-                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="MultiplicityMin"></ATT>
                   <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
                   <ATT name="Visibility">Public</ATT>
                   <ATT name="IsClass">false</ATT>
@@ -54,11 +60,11 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="expression" mc="Standard.AssociationEnd" uid="2c7c3483-32de-4313-85bd-0546706deed0"/>
+                    <COMPID name="expressionBinaire" mc="Standard.AssociationEnd" uid="68838b3f-043e-47f2-9e23-633852f6f185"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="contient" mc="Standard.Association" uid="70578f63-2fb3-431b-b84f-cac5ef0b030f"/>
+                      <ID name="contient" mc="Standard.Association" uid="9af02a9d-4b69-40f9-9b3c-92648eb5b0cf"/>
                       <ATTRIBUTES>
                         <ATT name="Name"><![CDATA[contient]]></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -66,31 +72,15 @@
                       <DEPENDENCIES></DEPENDENCIES>
                     </OBJECT>
                   </COMP>
-                  <COMP relation="Descriptor">
-                    <OBJECT>
-                      <ID name="" mc="Infrastructure.Note" uid="c7ae6ed8-fa10-4f57-a270-548dc8e85f54"/>
-                      <ATTRIBUTES>
-                        <ATT name="Content"><![CDATA[<Enter note text here>]]></ATT>
-                        <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
-                        <ATT name="Name"></ATT>
-                        <ATT name="status">1970354901745664</ATT>
-                      </ATTRIBUTES>
-                      <DEPENDENCIES>
-                        <LINK relation="Model">
-                          <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
-                        </LINK>
-                      </DEPENDENCIES>
-                    </OBJECT>
-                  </COMP>
                 </DEPENDENCIES>
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="contient" mc="Standard.Association" uid="70578f63-2fb3-431b-b84f-cac5ef0b030f"/>
+              <COMPID name="contient" mc="Standard.Association" uid="9af02a9d-4b69-40f9-9b3c-92648eb5b0cf"/>
             </COMP>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="31fb2ace-0e02-4a62-8c14-4c0834d34bb0"/>
+                <ID name="" mc="Infrastructure.Note" uid="676d1c38-0b25-4161-9f70-10ec5012a3ca"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[<Enter note text here>]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -106,12 +96,7 @@
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
-        <REFOBJ>
-          <ID name="type" mc="Standard.AssociationEnd" uid="c043fad5-8a16-4971-8085-1543cecdec1b"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="boolean" mc="Standard.AssociationEnd" uid="5002cd94-f2ec-493b-ac35-68536f89855d"/>
-        </REFOBJ>
+        <COMPID name="" mc="Standard.AssociationEnd" uid="b7a2afad-7a6d-4f91-9ac1-1f8a51632b33"/>
       </COMP>
       <COMP relation="Parent">
         <OBJECT>

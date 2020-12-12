@@ -17,9 +17,6 @@
     <DEPENDENCIES>
       <COMP relation="OwnedEnd">
         <REFOBJ>
-          <ID name="actionsARealiser" mc="Standard.AssociationEnd" uid="75bc07f7-7311-4f02-a8c2-e1ed4e12b0be"/>
-        </REFOBJ>
-        <REFOBJ>
           <ID name="vision" mc="Standard.AssociationEnd" uid="76335d73-47b6-4375-ade2-48613aad0e57"/>
         </REFOBJ>
       </COMP>

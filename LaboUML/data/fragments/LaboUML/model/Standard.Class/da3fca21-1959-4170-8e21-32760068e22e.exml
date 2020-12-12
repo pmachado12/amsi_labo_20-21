@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Réaction" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Item" version="4">
   <OBJECT>
-    <ID name="Réaction" mc="Standard.Class" uid="5f1ea7a1-91c2-4cd5-8517-c1be62783629"/>
+    <ID name="Item" mc="Standard.Class" uid="da3fca21-1959-4170-8e21-32760068e22e"/>
     <PID name="StrategiesDeJeu" mc="Standard.Package" uid="c144b141-e88f-4540-8a71-427ef1a225e1"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,13 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Réaction]]></ATT>
+      <ATT name="Name"><![CDATA[Item]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="" mc="Standard.AssociationEnd" uid="5e4aeeaa-520f-4290-9b3f-5a8619e16c38"/>
+          <ID name="" mc="Standard.AssociationEnd" uid="4a21555d-e845-4829-91c4-fb2a3d0ed205"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -36,7 +36,7 @@
           <DEPENDENCIES>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="reaction" mc="Standard.AssociationEnd" uid="ce4886e8-1cd1-49a6-8c56-18619b2897c9"/>
+                <ID name="item" mc="Standard.AssociationEnd" uid="a73fbcac-4cfc-41a3-8df9-ca5f65c0ee59"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAggregation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -46,68 +46,49 @@
                   <ATT name="IsUnique">false</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
                   <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-                  <ATT name="Visibility">VisibilityUndefined</ATT>
+                  <ATT name="Visibility">Public</ATT>
                   <ATT name="IsClass">false</ATT>
                   <ATT name="IsAbstract">false</ATT>
-                  <ATT name="Name"><![CDATA[reaction]]></ATT>
+                  <ATT name="Name"><![CDATA[item]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="" mc="Standard.AssociationEnd" uid="5e4aeeaa-520f-4290-9b3f-5a8619e16c38"/>
+                    <COMPID name="" mc="Standard.AssociationEnd" uid="4a21555d-e845-4829-91c4-fb2a3d0ed205"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="comporte" mc="Standard.Association" uid="e01ef73a-6a83-42f4-a32f-fb9b43149af8"/>
+                      <ID name="utilise" mc="Standard.Association" uid="1d0c4d82-18ef-4850-863a-ea1e04d91879"/>
                       <ATTRIBUTES>
-                        <ATT name="Name"><![CDATA[comporte]]></ATT>
+                        <ATT name="Name"><![CDATA[utilise]]></ATT>
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES></DEPENDENCIES>
-                    </OBJECT>
-                  </COMP>
-                  <COMP relation="Descriptor">
-                    <OBJECT>
-                      <ID name="" mc="Infrastructure.Note" uid="09b261ff-9663-4899-acb0-a0607149349a"/>
-                      <ATTRIBUTES>
-                        <ATT name="Content"><![CDATA[<Enter note text here>]]></ATT>
-                        <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
-                        <ATT name="Name"></ATT>
-                        <ATT name="status">1970354901745664</ATT>
-                      </ATTRIBUTES>
-                      <DEPENDENCIES>
-                        <LINK relation="Model">
-                          <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
-                        </LINK>
-                      </DEPENDENCIES>
                     </OBJECT>
                   </COMP>
                 </DEPENDENCIES>
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="comporte" mc="Standard.Association" uid="e01ef73a-6a83-42f4-a32f-fb9b43149af8"/>
+              <COMPID name="utilise" mc="Standard.Association" uid="1d0c4d82-18ef-4850-863a-ea1e04d91879"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
-        <REFOBJ>
-          <ID name="instruction" mc="Standard.AssociationEnd" uid="c575ff6d-4f0c-42ec-a75f-f46183909940"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="action" mc="Standard.AssociationEnd" uid="ff45a909-957e-431c-b4bb-f0fa6117c105"/>
-        </REFOBJ>
       </COMP>
-      <COMP relation="ConstraintDefinition">
+      <COMP relation="Descriptor">
         <OBJECT>
-          <ID name="invariant" mc="Standard.Constraint" uid="93592966-bc36-4dce-893c-5d61b048d52b"/>
+          <ID name="Note" mc="Infrastructure.Note" uid="48ef5cf9-67db-44f5-ae4c-80ab78b40be6"/>
           <ATTRIBUTES>
-            <ATT name="BaseClass"></ATT>
-            <ATT name="Body"><![CDATA[context Réaction inv UnMouvement  : self.actions.allInstances()->collect(a : Action | a.oclIsTypeOf(SeDéplacer))->count() = 1]]></ATT>
-            <ATT name="Language"></ATT>
-            <ATT name="Name"><![CDATA[invariant]]></ATT>
+            <ATT name="Content"><![CDATA[Utilisé depuis PlateuxDeJeuDC]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"><![CDATA[Note]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
-          <DEPENDENCIES></DEPENDENCIES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
         </OBJECT>
       </COMP>
     </DEPENDENCIES>

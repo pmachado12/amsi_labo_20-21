@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ActionARéaliser" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Zombie" version="4">
   <OBJECT>
-    <ID name="ActionARéaliser" mc="Standard.Class" uid="6a49c1f7-16cf-4e6b-a231-e7b3a5a4921a"/>
+    <ID name="Zombie" mc="Standard.Class" uid="b2189d86-f55f-46ac-bc5e-644b19893c93"/>
     <PID name="StrategiesDeJeu" mc="Standard.Package" uid="c144b141-e88f-4540-8a71-427ef1a225e1"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,13 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[ActionARéaliser]]></ATT>
+      <ATT name="Name"><![CDATA[Zombie]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="" mc="Standard.AssociationEnd" uid="28607f84-70ab-4fee-a035-509b210bef0f"/>
+          <ID name="" mc="Standard.AssociationEnd" uid="33bb6d95-a0c0-4782-8f42-cf2eacea7e84"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -25,7 +25,7 @@
             <ATT name="IsDerived">false</ATT>
             <ATT name="IsOrdered">false</ATT>
             <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
             <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
@@ -36,7 +36,7 @@
           <DEPENDENCIES>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="actionsARealiser" mc="Standard.AssociationEnd" uid="75bc07f7-7311-4f02-a8c2-e1ed4e12b0be"/>
+                <ID name="zombie" mc="Standard.AssociationEnd" uid="63e6c0e4-6610-4122-a604-070f13daceeb"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAggregation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -45,33 +45,54 @@
                   <ATT name="IsOrdered">false</ATT>
                   <ATT name="IsUnique">false</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-                  <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
                   <ATT name="Visibility">Public</ATT>
                   <ATT name="IsClass">false</ATT>
                   <ATT name="IsAbstract">false</ATT>
-                  <ATT name="Name"><![CDATA[actionsARealiser]]></ATT>
+                  <ATT name="Name"><![CDATA[zombie]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="" mc="Standard.AssociationEnd" uid="28607f84-70ab-4fee-a035-509b210bef0f"/>
+                    <COMPID name="" mc="Standard.AssociationEnd" uid="33bb6d95-a0c0-4782-8f42-cf2eacea7e84"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="possède" mc="Standard.Association" uid="f00976bc-f8c1-4eb2-939d-dc9a5c7a23fa"/>
+                      <ID name="utilise" mc="Standard.Association" uid="60b517fb-d0e1-4346-b97f-7a01b746894a"/>
                       <ATTRIBUTES>
-                        <ATT name="Name"><![CDATA[possède]]></ATT>
+                        <ATT name="Name"><![CDATA[utilise]]></ATT>
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES></DEPENDENCIES>
                     </OBJECT>
                   </COMP>
+                  <COMP relation="ConstraintDefinition">
+                    <REFOBJ>
+                      <ID name="XOR" mc="Standard.Constraint" uid="4cbed9fa-c550-4dc6-9238-ad72841f972c"/>
+                    </REFOBJ>
+                  </COMP>
                 </DEPENDENCIES>
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="possède" mc="Standard.Association" uid="f00976bc-f8c1-4eb2-939d-dc9a5c7a23fa"/>
+              <COMPID name="utilise" mc="Standard.Association" uid="60b517fb-d0e1-4346-b97f-7a01b746894a"/>
             </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="Note" mc="Infrastructure.Note" uid="9b68ac57-b46f-4e89-a5f6-ca9fb8cc69cb"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Utilisé depuis PlateuxDeJeuDC]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"><![CDATA[Note]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
