@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="PlateauDeJeu" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Position" version="4">
   <OBJECT>
-    <ID name="PlateauDeJeu" mc="Standard.Class" uid="bead764f-f4b8-47b5-ad79-92928833a317"/>
+    <ID name="Position" mc="Standard.Class" uid="b7a10805-af44-47b0-857a-cf237a5930ce"/>
     <PID name="DC" mc="Standard.Package" uid="c780e865-a2d3-467c-9580-f42dba055984"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,13 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[PlateauDeJeu]]></ATT>
+      <ATT name="Name"><![CDATA[Position]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedAttribute">
         <OBJECT>
-          <ID name="nbrLignes" mc="Standard.Attribute" uid="472b0067-a13b-4936-985b-31cece5f3d0a"/>
+          <ID name="posX" mc="Standard.Attribute" uid="4764bca9-7c12-40b1-85a8-5f3f12557a37"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -31,7 +31,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[nbrLignes]]></ATT>
+            <ATT name="Name"><![CDATA[posX]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -41,7 +41,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="nbrColonnes" mc="Standard.Attribute" uid="268a6eee-36db-49aa-ba1a-fbdd6ad55d9c"/>
+          <ID name="posY" mc="Standard.Attribute" uid="020e0366-095c-4153-9ad7-cd992a9a9491"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -55,7 +55,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[nbrColonnes]]></ATT>
+            <ATT name="Name"><![CDATA[posY]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -67,7 +67,7 @@
       </COMP>
       <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="" mc="Standard.AssociationEnd" uid="e5057bd9-debe-4287-be36-fa5256b94f8b"/>
+          <ID name="item" mc="Standard.AssociationEnd" uid="92f0e2c4-1cdd-48ef-b0fc-f8a9b8446bb7"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -80,39 +80,20 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"></ATT>
+            <ATT name="Name"><![CDATA[item]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <COMP relation="Opposite">
               <REFOBJ>
-                <ID name="monde" mc="Standard.AssociationEnd" uid="11c4ae19-4773-458a-85a8-42974e5e698f"/>
+                <ID name="position" mc="Standard.AssociationEnd" uid="495412a9-11aa-478b-adeb-a18db6075615"/>
               </REFOBJ>
             </COMP>
             <COMP relation="Association">
               <REFOBJ>
-                <ID name="" mc="Standard.Association" uid="1a32cf80-1c99-4d7b-bc56-0f4fb73a6845"/>
+                <ID name="possède" mc="Standard.Association" uid="9621a8b9-e229-4571-b437-5bda6574cb39"/>
               </REFOBJ>
             </COMP>
-          </DEPENDENCIES>
-        </OBJECT>
-        <REFOBJ>
-          <ID name="case" mc="Standard.AssociationEnd" uid="cdb44051-90af-4dd7-a203-4a2189f6e8bb"/>
-        </REFOBJ>
-      </COMP>
-      <COMP relation="Descriptor">
-        <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="90df3492-8005-4726-9c23-6c18b9b60e74"/>
-          <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[<Enter note text here>]]></ATT>
-            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
-            <ATT name="Name"></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Model">
-              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
-            </LINK>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>

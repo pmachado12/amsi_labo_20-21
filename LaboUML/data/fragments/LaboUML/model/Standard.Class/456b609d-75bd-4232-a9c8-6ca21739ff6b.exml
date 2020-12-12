@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Brouillard" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="PorteeDeVisibilié" version="4">
   <OBJECT>
-    <ID name="Brouillard" mc="Standard.Class" uid="b39398b2-99a3-43ce-8355-dd858194650c"/>
+    <ID name="PorteeDeVisibilié" mc="Standard.Class" uid="456b609d-75bd-4232-a9c8-6ca21739ff6b"/>
     <PID name="DC" mc="Standard.Package" uid="c780e865-a2d3-467c-9580-f42dba055984"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,15 +11,9 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Brouillard]]></ATT>
+      <ATT name="Name"><![CDATA[PorteeDeVisibilié]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
-    <DEPENDENCIES>
-      <COMP relation="OwnedEnd">
-        <REFOBJ>
-          <ID name="" mc="Standard.AssociationEnd" uid="a3be1efa-2f7f-41a9-b209-53e86dabf3d4"/>
-        </REFOBJ>
-      </COMP>
-    </DEPENDENCIES>
+    <DEPENDENCIES></DEPENDENCIES>
   </OBJECT>
 </EXT>

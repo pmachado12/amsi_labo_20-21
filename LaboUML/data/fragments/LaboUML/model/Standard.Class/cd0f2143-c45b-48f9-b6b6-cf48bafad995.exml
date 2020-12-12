@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Consommables" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Consommable" version="4">
   <OBJECT>
-    <ID name="Consommables" mc="Standard.Class" uid="cd0f2143-c45b-48f9-b6b6-cf48bafad995"/>
+    <ID name="Consommable" mc="Standard.Class" uid="cd0f2143-c45b-48f9-b6b6-cf48bafad995"/>
     <PID name="DC" mc="Standard.Package" uid="c780e865-a2d3-467c-9580-f42dba055984"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Consommables]]></ATT>
+      <ATT name="Name"><![CDATA[Consommable]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>

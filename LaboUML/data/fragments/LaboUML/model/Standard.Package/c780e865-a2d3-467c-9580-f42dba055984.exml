@@ -51,8 +51,8 @@
         <COMPID name="ZoneFeu" mc="Standard.Class" uid="472aa7a7-9103-4c80-8cc6-6b2a7523d418"/>
         <COMPID name="ZoneGlace" mc="Standard.Class" uid="896beaa6-57c7-45cf-9628-70bdff5651ee"/>
         <COMPID name="ObstacleFranchissable" mc="Standard.Class" uid="29f5d954-b362-4c66-8db7-da220b017f81"/>
-        <COMPID name="ItemActivateur" mc="Standard.Class" uid="ea92d95f-3cd1-4f5b-a312-f9acd8ef92c7"/>
-        <COMPID name="ItemOrientation" mc="Standard.Class" uid="5c0cd440-c7b3-4bc4-937a-750f322e9953"/>
+        <COMPID name="ObjAide" mc="Standard.Class" uid="ea92d95f-3cd1-4f5b-a312-f9acd8ef92c7"/>
+        <COMPID name="ObjAideOrientation" mc="Standard.Class" uid="5c0cd440-c7b3-4bc4-937a-750f322e9953"/>
         <COMPID name="Bonus" mc="Standard.Class" uid="df52acb1-4b71-4f7a-b38e-e03004da87ed"/>
         <COMPID name="BonusDefense" mc="Standard.Class" uid="78d7e362-8d13-4a42-9cb9-655ae5f7acd8"/>
         <COMPID name="BonusAttaque" mc="Standard.Class" uid="d90ee875-ff30-4a8e-9c97-9d1788a327c1"/>
@@ -69,7 +69,7 @@
         <COMPID name="Expert" mc="Standard.Class" uid="7f7351fd-57ab-4b07-b512-915c4ab50923"/>
         <COMPID name="Class" mc="Standard.Class" uid="9f76ed6a-c852-4896-afa2-f1c8dcf77373"/>
         <COMPID name="Case" mc="Standard.Class" uid="42d9dfd5-d932-43f0-a8dc-9189432e50ba"/>
-        <COMPID name="Consommables" mc="Standard.Class" uid="cd0f2143-c45b-48f9-b6b6-cf48bafad995"/>
+        <COMPID name="Consommable" mc="Standard.Class" uid="cd0f2143-c45b-48f9-b6b6-cf48bafad995"/>
         <COMPID name="Inventaire" mc="Standard.Class" uid="de4cbcc2-8b57-48f6-9a9a-e56761cb7500"/>
         <COMPID name="Action" mc="Standard.Class" uid="21507680-025a-4532-9610-f0c31c7486f4"/>
         <COMPID name="SeDéplacer" mc="Standard.Class" uid="f7ab6126-9e18-4004-9a3b-464c115a8f94"/>
@@ -129,6 +129,9 @@
         <COMPID name="Brouillard" mc="Standard.Class" uid="b39398b2-99a3-43ce-8355-dd858194650c"/>
         <COMPID name="Chonometre" mc="Standard.Class" uid="3312a672-c188-4bd6-b0f8-c98420ffd9c4"/>
         <COMPID name="CompteurTour" mc="Standard.Class" uid="863f35f0-01fd-4828-9228-422fa7bc6df5"/>
+        <COMPID name="Position" mc="Standard.Class" uid="b7a10805-af44-47b0-857a-cf237a5930ce"/>
+        <COMPID name="PorteeDeVisibilié" mc="Standard.Class" uid="456b609d-75bd-4232-a9c8-6ca21739ff6b"/>
+        <COMPID name="Vide" mc="Standard.Class" uid="e090c754-a001-41e6-9b72-d4c9c9041ca6"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="PlateauxDeJeuDC" mc="Standard.ClassDiagram" uid="3552e2c9-c4c6-4a33-b33a-28c913268f79"/>

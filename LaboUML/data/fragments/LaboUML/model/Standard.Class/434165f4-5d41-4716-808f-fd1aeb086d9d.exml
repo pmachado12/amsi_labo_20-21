@@ -17,7 +17,7 @@
     <DEPENDENCIES>
       <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="case" mc="Standard.AssociationEnd" uid="29087b97-43b9-457e-aac6-d2fbc254c3dc"/>
+          <ID name="" mc="Standard.AssociationEnd" uid="29087b97-43b9-457e-aac6-d2fbc254c3dc"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -25,12 +25,12 @@
             <ATT name="IsDerived">false</ATT>
             <ATT name="IsOrdered">false</ATT>
             <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
-            <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[case]]></ATT>
+            <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -54,13 +54,121 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="case" mc="Standard.AssociationEnd" uid="29087b97-43b9-457e-aac6-d2fbc254c3dc"/>
+                    <COMPID name="" mc="Standard.AssociationEnd" uid="29087b97-43b9-457e-aac6-d2fbc254c3dc"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="contient" mc="Standard.Association" uid="925ef2fe-91db-4ad3-8481-9d22444fdfcb"/>
+                      <ID name="" mc="Standard.Association" uid="925ef2fe-91db-4ad3-8481-9d22444fdfcb"/>
                       <ATTRIBUTES>
-                        <ATT name="Name"><![CDATA[contient]]></ATT>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <COMP relation="ConstraintDefinition">
+                    <OBJECT>
+                      <ID name="XOR" mc="Standard.Constraint" uid="003d6c61-bec1-4004-93b5-a330a692541e"/>
+                      <ATTRIBUTES>
+                        <ATT name="BaseClass"></ATT>
+                        <ATT name="Body"></ATT>
+                        <ATT name="Language"></ATT>
+                        <ATT name="Name"><![CDATA[XOR]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="ConstraintDefinition">
+                          <OBJECT>
+                            <ID name="" mc="Standard.Constraint" uid="e7d853d9-0b3f-4b8e-92e2-f9efc14af1dc"/>
+                            <ATTRIBUTES>
+                              <ATT name="BaseClass"></ATT>
+                              <ATT name="Body"><![CDATA[<Saisir le texte de la contrainte ici>]]></ATT>
+                              <ATT name="Language"></ATT>
+                              <ATT name="Name"></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <LINK relation="Extension">
+                                <FOREIGNID name="xor" mc="Infrastructure.Stereotype" uid="00700680-0000-0200-0000-000000000000"/>
+                              </LINK>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <COMP relation="Descriptor">
+                    <OBJECT>
+                      <ID name="" mc="Infrastructure.Note" uid="7b8cc7ea-c91b-47db-b70e-bddd91cbc5d0"/>
+                      <ATTRIBUTES>
+                        <ATT name="Content"><![CDATA[<Saisir le texte de la note ici>]]></ATT>
+                        <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Model">
+                          <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Association">
+              <COMPID name="" mc="Standard.Association" uid="925ef2fe-91db-4ad3-8481-9d22444fdfcb"/>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="position" mc="Standard.AssociationEnd" uid="cf43ff73-9953-4f93-be6e-15e4fd35ecf2"/>
+          <ATTRIBUTES>
+            <ATT name="Aggregation">KindIsAssociation</ATT>
+            <ATT name="IsChangeable">true</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[position]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="Position" mc="Standard.Class" uid="b7a10805-af44-47b0-857a-cf237a5930ce"/>
+            </LINK>
+            <COMP relation="Opposite">
+              <OBJECT>
+                <ID name="obstacle" mc="Standard.AssociationEnd" uid="188075c7-dfaa-44e1-ab26-f10bc2c7fec9"/>
+                <ATTRIBUTES>
+                  <ATT name="Aggregation">KindIsAssociation</ATT>
+                  <ATT name="IsChangeable">true</ATT>
+                  <ATT name="Changeable">ReadWrite</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"><![CDATA[obstacle]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Opposite">
+                    <COMPID name="position" mc="Standard.AssociationEnd" uid="cf43ff73-9953-4f93-be6e-15e4fd35ecf2"/>
+                  </COMP>
+                  <COMP relation="Association">
+                    <OBJECT>
+                      <ID name="possède" mc="Standard.Association" uid="776605b6-ef2f-46b0-9002-319db0b7a9fc"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"><![CDATA[possède]]></ATT>
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES></DEPENDENCIES>
@@ -70,7 +178,7 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="contient" mc="Standard.Association" uid="925ef2fe-91db-4ad3-8481-9d22444fdfcb"/>
+              <COMPID name="possède" mc="Standard.Association" uid="776605b6-ef2f-46b0-9002-319db0b7a9fc"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
